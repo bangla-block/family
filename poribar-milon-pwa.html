@@ -1,0 +1,1408 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8"/>
+<meta name="viewport" content="width=device-width,initial-scale=1.0,viewport-fit=cover"/>
+<title>🌙 কাঞ্চনআলী মাতুব্বর পরিবার মিলন উৎসব ২০২৬</title>
+<meta name="theme-color" content="#1B2340"/>
+<meta name="mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent"/>
+<meta name="apple-mobile-web-app-title" content="পরিবার মিলন"/>
+<link rel="preconnect" href="https://fonts.googleapis.com"/>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Bengali:wght@400;600;700;800&family=Noto+Serif+Bengali:wght@700;800&display=swap" rel="stylesheet"/>
+<style>
+:root{--saffron:#E8873A;--saffron-dk:#C4612A;--saffron-lt:#FDF0E4;--forest:#2D6A4F;--forest-bg:#E8F5EF;--cream:#FDF8F2;--deep:#1B2340;--deep2:#252E4B;--gold:#E9A320;--gold-bg:#FEF9EC;--rose:#C94060;--rose-bg:#FCE8ED;--sky:#0369A1;--sky-bg:#E0F2FE;--purple:#6D28D9;--purple-bg:#EDE9FE;--text:#1E1E2E;--muted:#6B7280;--border:#EAE2D8;--sb:env(safe-area-inset-bottom,0px);--nav-h:64px;}
+*{box-sizing:border-box;margin:0;padding:0;-webkit-tap-highlight-color:transparent;}
+html{font-size:15px;-webkit-text-size-adjust:100%;}
+body{font-family:'Noto Sans Bengali',sans-serif;background:var(--cream);color:var(--text);overscroll-behavior:none;}
+h1,h2,h3,h4{font-family:'Noto Serif Bengali',serif;}
+button,select,input,textarea{font-family:'Noto Sans Bengali',sans-serif;}
+a{text-decoration:none;color:inherit;}
+.app{max-width:480px;margin:0 auto;background:#fff;min-height:100vh;position:relative;}
+.auth-wrap{min-height:100vh;background:var(--deep);display:flex;flex-direction:column;align-items:center;justify-content:center;padding:32px 20px;}
+.auth-logo{font-size:3.2rem;margin-bottom:12px;}
+.auth-title{font-family:'Noto Serif Bengali',serif;font-size:1.45rem;font-weight:800;color:#fff;text-align:center;margin-bottom:4px;}
+.auth-sub{font-size:.78rem;color:rgba(255,255,255,.45);text-align:center;margin-bottom:26px;}
+.auth-card{background:#fff;border-radius:20px;padding:22px 18px;width:100%;max-width:390px;box-shadow:0 8px 40px rgba(0,0,0,.35);}
+.auth-tabs{display:flex;border-bottom:2px solid var(--border);margin-bottom:18px;}
+.auth-tab{flex:1;padding:10px;text-align:center;font-size:.88rem;font-weight:700;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-2px;background:none;border-top:none;border-left:none;border-right:none;font-family:'Noto Sans Bengali',sans-serif;}
+.auth-tab.on{color:var(--saffron);border-bottom-color:var(--saffron);}
+.err-box{background:var(--rose-bg);border:1px solid #F9A8BE;border-radius:8px;padding:10px 12px;font-size:.78rem;color:var(--rose);margin-bottom:12px;}
+.lock-hint{background:var(--gold-bg);border:1px solid #FDE68A;border-radius:10px;padding:11px 13px;font-size:.8rem;color:#92400E;margin-bottom:14px;display:flex;align-items:flex-start;gap:8px;}
+.loading-screen{display:flex;flex-direction:column;align-items:center;justify-content:center;min-height:100vh;gap:12px;color:var(--muted);}
+.spin{width:36px;height:36px;border:3px solid var(--border);border-top-color:var(--saffron);border-radius:50%;animation:spin .7s linear infinite;}
+@keyframes spin{to{transform:rotate(360deg)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.35}}
+.topbar{position:sticky;top:0;z-index:90;background:var(--deep);padding:13px 16px 11px;display:flex;align-items:center;justify-content:space-between;box-shadow:0 2px 12px rgba(0,0,0,.25);}
+.topbar-title{font-size:1.04rem;font-weight:800;color:#fff;font-family:'Noto Serif Bengali',serif;}
+.topbar-sub{font-size:.66rem;color:rgba(255,255,255,.45);margin-top:1px;}
+.topbar-avatar{width:36px;height:36px;border-radius:50%;display:flex;align-items:center;justify-content:center;font-size:.95rem;font-weight:800;color:#fff;flex-shrink:0;border:2px solid rgba(255,255,255,.25);}
+.topbar-user{display:flex;align-items:center;gap:8px;cursor:pointer;}
+.topbar-uname{font-size:.74rem;color:rgba(255,255,255,.75);font-weight:700;}
+.nb{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:480px;background:#fff;border-top:1px solid var(--border);display:grid;grid-template-columns:repeat(5,1fr);z-index:100;padding-bottom:var(--sb);box-shadow:0 -4px 20px rgba(0,0,0,.08);}
+.nb-i{display:flex;flex-direction:column;align-items:center;justify-content:center;padding:10px 4px 8px;cursor:pointer;border:none;background:transparent;min-height:var(--nav-h);gap:3px;color:var(--muted);}
+.nb-i.on{color:var(--saffron);}
+.nb-icon{font-size:1.4rem;line-height:1;}
+.nb-lbl{font-size:.6rem;font-weight:700;white-space:nowrap;}
+.page{padding:0 0 calc(var(--nav-h) + var(--sb) + 8px);}
+.pi{padding:14px;}
+.notice-bar{background:linear-gradient(135deg,#6D28D9,#4C1D95);color:#fff;padding:11px 16px;display:flex;align-items:flex-start;gap:10px;font-size:.84rem;line-height:1.5;}
+.notice-bar-x{font-size:1rem;cursor:pointer;opacity:.7;margin-left:auto;flex-shrink:0;}
+.hero{background:linear-gradient(135deg,var(--deep) 0%,#2D3561 100%);border-radius:16px;padding:20px 18px;margin-bottom:14px;position:relative;overflow:hidden;}
+.hero::before{content:'🌙';position:absolute;right:-8px;top:-14px;font-size:6rem;opacity:.07;}
+.hero h2{font-size:1.12rem;color:#fff;margin-bottom:4px;line-height:1.4;}
+.hero p{font-size:.75rem;color:rgba(255,255,255,.5);line-height:1.5;}
+.hs-row{display:flex;margin-top:14px;border-top:1px solid rgba(255,255,255,.1);padding-top:12px;}
+.hs{flex:1;text-align:center;border-right:1px solid rgba(255,255,255,.1);}
+.hs:last-child{border-right:none;}
+.hs-val{font-family:'Noto Serif Bengali',serif;font-size:1.28rem;font-weight:800;color:var(--gold);}
+.hs-lbl{font-size:.6rem;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.06em;margin-top:1px;}
+.sr2{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin-bottom:14px;}
+.sr3{display:grid;grid-template-columns:1fr 1fr 1fr;gap:10px;margin-bottom:14px;}
+.chip{background:#fff;border:1px solid var(--border);border-radius:12px;padding:13px 12px;position:relative;overflow:hidden;}
+.chip::before{content:'';position:absolute;top:0;left:0;right:0;height:3px;}
+.cs::before{background:var(--saffron);}.cf::before{background:var(--forest);}.cg::before{background:var(--gold);}.cr::before{background:var(--rose);}
+.chip-val{font-family:'Noto Serif Bengali',serif;font-size:1.38rem;font-weight:800;line-height:1.1;}
+.chip-lbl{font-size:.64rem;font-weight:700;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-top:2px;}
+.qcs{background:var(--deep2);border-radius:12px;padding:13px 14px;margin-top:14px;}
+.qcs-lbl{font-size:.68rem;font-weight:800;color:rgba(255,255,255,.4);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px;}
+.qcr{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:7px 0;border-bottom:1px solid rgba(255,255,255,.06);}
+.qcr:last-child{border-bottom:none;}
+.qc-name{font-size:.84rem;font-weight:800;color:#fff;}
+.qc-role{font-size:.64rem;color:rgba(255,255,255,.38);margin-top:1px;}
+.donor-row{display:flex;align-items:center;gap:12px;padding:12px 14px;border-bottom:1px solid var(--border);}
+.donor-row:last-child{border-bottom:none;}
+.donor-rank{font-family:'Noto Serif Bengali',serif;font-size:1.2rem;width:28px;text-align:center;flex-shrink:0;}
+.donor-info{flex:1;min-width:0;}
+.donor-name{font-weight:800;font-size:.9rem;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;}
+.donor-sub{font-size:.7rem;color:var(--muted);margin-top:1px;}
+.donor-amt{font-family:'Noto Serif Bengali',serif;font-size:1rem;font-weight:800;color:var(--saffron-dk);}
+.pay-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:13px;margin-bottom:10px;display:flex;align-items:flex-start;gap:11px;}
+.pay-card.dim{opacity:.62;border-style:dashed;}
+.pay-info{flex:1;min-width:0;}
+.pay-name{font-weight:800;font-size:.92rem;}
+.pay-tags{display:flex;gap:6px;margin-top:6px;flex-wrap:wrap;}
+.ptag{font-size:.7rem;font-weight:800;padding:3px 8px;border-radius:6px;}
+.ptag-e{background:var(--forest-bg);color:var(--forest);}.ptag-d{background:var(--gold-bg);color:#92400E;}.ptag-t{background:var(--saffron-lt);color:var(--saffron-dk);}
+.pay-right{display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0;}
+.sbadge{font-size:.65rem;font-weight:800;padding:3px 8px;border-radius:6px;text-transform:uppercase;}
+.sb-paid{background:#DCFCE7;color:#15803D;}.sb-unpaid{background:#FEE2E2;color:#B91C1C;}.sb-partial{background:#FEF9C3;color:#A16207;}
+.tag{display:inline-flex;font-size:.65rem;font-weight:800;padding:2px 8px;border-radius:20px;text-transform:uppercase;letter-spacing:.04em;}
+.tag-a{background:var(--purple-bg);color:var(--purple);}.tag-t{background:#FFF7ED;color:#C2410C;border:1px solid #FED7AA;}.tag-c{background:var(--rose-bg);color:var(--rose);}.tag-m{background:var(--sky-bg);color:var(--sky);}
+.rp{display:inline-block;font-size:.6rem;font-weight:800;padding:2px 8px;border-radius:20px;text-transform:uppercase;letter-spacing:.05em;}
+.rp-sa{background:#E8873A22;color:var(--saffron);border:1px solid var(--saffron);}.rp-m{background:#40916C22;color:var(--forest);border:1px solid var(--forest);}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:6px;padding:11px 18px;border-radius:10px;font-family:'Noto Sans Bengali',sans-serif;font-size:.9rem;font-weight:700;cursor:pointer;border:none;min-height:44px;}
+.btn-p{background:var(--saffron);color:#fff;}.btn-f{background:var(--forest);color:#fff;}.btn-s{background:#fff;border:1.5px solid var(--border);color:var(--text);}.btn-d{background:var(--rose-bg);color:var(--rose);border:1px solid #F9A8BE;}.btn-g{background:transparent;color:var(--muted);}.btn-pu{background:var(--purple);color:#fff;}.btn-dk{background:var(--deep);color:#fff;}
+.btn-sm{padding:7px 12px;font-size:.78rem;min-height:36px;border-radius:8px;}.btn-xs{padding:4px 9px;font-size:.7rem;min-height:30px;border-radius:6px;}.btn-w{width:100%;}
+.fab{position:fixed;right:16px;bottom:calc(var(--nav-h) + var(--sb) + 14px);width:52px;height:52px;border-radius:50%;background:var(--saffron);color:#fff;display:flex;align-items:center;justify-content:center;font-size:1.5rem;box-shadow:0 4px 16px rgba(232,135,58,.45);cursor:pointer;z-index:80;border:none;}
+.overlay{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:110;}
+.sheet{position:fixed;bottom:0;left:50%;transform:translateX(-50%);width:100%;max-width:480px;background:#fff;border-radius:20px 20px 0 0;z-index:120;padding:20px 16px calc(var(--nav-h) + var(--sb) + 14px);max-height:88vh;overflow-y:auto;box-shadow:0 -8px 40px rgba(0,0,0,.2);}
+.modal-ov{position:fixed;inset:0;background:rgba(0,0,0,.5);z-index:200;display:flex;align-items:flex-end;}
+.modal-sh{background:#fff;border-radius:20px 20px 0 0;padding:20px 16px calc(var(--sb) + 20px);width:100%;max-height:92vh;overflow-y:auto;box-shadow:0 -8px 40px rgba(0,0,0,.2);}
+.mhandle{width:36px;height:4px;background:var(--border);border-radius:2px;margin:0 auto 16px;}
+.mtitle{font-size:1.08rem;font-weight:800;margin-bottom:16px;text-align:center;}
+.mact{display:flex;gap:10px;margin-top:18px;}
+.mact .btn{flex:1;}
+.fg{margin-bottom:14px;}
+.fg label{display:block;font-size:.72rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:5px;}
+.fc{width:100%;padding:12px 14px;border:1.5px solid var(--border);border-radius:10px;font-family:'Noto Sans Bengali',sans-serif;font-size:.9rem;outline:none;background:#fff;min-height:44px;}
+.fc:focus{border-color:var(--saffron);}
+textarea.fc{resize:vertical;min-height:80px;}
+.fcnote{font-size:.7rem;color:var(--muted);margin-top:4px;}
+.fr2{display:grid;grid-template-columns:1fr 1fr;gap:10px;}
+.notice{background:var(--gold-bg);border:1px solid #FDE68A;border-radius:10px;padding:11px 13px;font-size:.8rem;color:#92400E;margin-bottom:14px;line-height:1.5;}
+.info{background:var(--sky-bg);border:1px solid #BAE6FD;border-radius:10px;padding:11px 13px;font-size:.8rem;color:#0C4A6E;margin-bottom:14px;line-height:1.5;}
+.st{font-size:.95rem;font-weight:800;margin:18px 0 10px;color:var(--text);font-family:'Noto Serif Bengali',serif;}
+.sh-row{display:flex;align-items:center;justify-content:space-between;margin:16px 0 10px;}
+.sh-row .st{margin:0;}
+.tab-row{display:flex;border-bottom:2px solid var(--border);margin-bottom:14px;}
+.tab-btn{padding:10px 16px;font-size:.83rem;font-weight:700;cursor:pointer;color:var(--muted);border-bottom:2px solid transparent;margin-bottom:-2px;background:none;border-top:none;border-left:none;border-right:none;font-family:'Noto Sans Bengali',sans-serif;}
+.tab-btn.on{color:var(--saffron);border-bottom-color:var(--saffron);}
+.card{background:#fff;border:1px solid var(--border);border-radius:14px;overflow:hidden;}
+.tl-day{display:flex;}.tl-m{display:flex;flex-direction:column;align-items:center;width:52px;flex-shrink:0;}
+.tl-dot{width:34px;height:34px;border-radius:50%;background:var(--saffron);display:flex;align-items:center;justify-content:center;color:#fff;font-weight:800;font-size:.78rem;flex-shrink:0;}
+.tl-line{width:2px;flex:1;background:var(--border);margin:4px 0;}
+.tl-body{flex:1;padding-bottom:20px;padding-top:4px;}
+.tl-date{font-size:.7rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.04em;margin-bottom:7px;}
+.tl-item{background:#fff;border:1px solid var(--border);border-radius:10px;padding:11px 12px;margin-bottom:8px;position:relative;}
+.tl-item h4{font-size:.88rem;font-weight:800;margin-bottom:3px;}
+.tl-item p{font-size:.78rem;color:var(--muted);line-height:1.5;}
+.tl-time{display:inline-block;background:var(--saffron);color:#fff;font-size:.66rem;font-weight:800;padding:2px 7px;border-radius:4px;margin-bottom:5px;}
+.ia{display:flex;gap:4px;position:absolute;top:8px;right:8px;}
+.food-dc{background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:10px;}
+.food-dh{background:var(--deep);color:#fff;padding:11px 14px;}
+.food-dh h3{font-size:.9rem;}
+.food-ms{padding:12px 14px;border-bottom:1px solid var(--border);}
+.food-ms:last-child{border-bottom:none;}
+.fml{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.07em;display:flex;align-items:center;justify-content:space-between;margin-bottom:6px;}
+.fm-am{color:#F97316;}.fm-no{color:var(--forest);}.fm-ni{color:var(--purple);}
+.fmi{font-size:.83rem;padding:5px 0;border-bottom:1px dashed var(--border);display:flex;align-items:center;justify-content:space-between;gap:6px;}
+.fmi:last-child{border-bottom:none;}
+.sleep-c{background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:10px;}
+.sleep-h{padding:12px 14px;border-bottom:1px solid var(--border);}
+.sleep-h h3{font-size:.9rem;font-weight:800;}
+.sleep-slots{padding:10px 14px;display:flex;flex-direction:column;gap:6px;}
+.sl{display:flex;align-items:center;justify-content:space-between;padding:9px 11px;border-radius:8px;font-size:.82rem;}
+.sl.occ{background:#FEE2E2;}.sl.avail{background:#DCFCE7;}
+.sl-name{font-weight:700;}
+.sl.occ .sl-st{color:var(--rose);font-size:.64rem;font-weight:800;text-transform:uppercase;}
+.sl.avail .sl-st{color:var(--forest);font-size:.64rem;font-weight:800;text-transform:uppercase;}
+.smc{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px;margin-bottom:10px;}
+.smc-top{display:flex;align-items:center;gap:10px;margin-bottom:12px;}
+.smc-bar{height:5px;border-radius:3px;background:#F5EEE6;margin-bottom:8px;overflow:hidden;}
+.smc-fill{height:100%;border-radius:3px;background:var(--rose);}
+.smc-nums{display:flex;justify-content:space-between;font-size:.74rem;margin-bottom:6px;}
+.scat{background:#fff;border:1px solid var(--border);border-radius:12px;overflow:hidden;margin-bottom:10px;}
+.scat-hd{padding:12px 14px;background:#FAFAF8;border-bottom:1px solid var(--border);display:flex;align-items:flex-start;justify-content:space-between;gap:8px;}
+.scat-hd h3{font-size:.9rem;font-weight:800;}.scat-hd p{font-size:.7rem;color:var(--muted);margin-top:2px;}
+.scat-item{display:flex;justify-content:space-between;align-items:center;padding:10px 14px;border-bottom:1px solid #F5EEE6;font-size:.84rem;}
+.scat-item:last-child{border-bottom:none;}
+.scat-foot{padding:10px 14px;background:#FAFAF8;border-top:1px solid var(--border);display:flex;justify-content:space-between;font-size:.82rem;font-weight:800;}
+.amt{font-weight:800;font-family:'Noto Serif Bengali',serif;}
+.ag{color:var(--forest);}.ar{color:var(--rose);}.ao{color:var(--saffron-dk);}.ask{color:var(--sky);}
+.cc{background:#fff;border:1px solid var(--border);border-radius:12px;padding:14px;margin-bottom:10px;}
+.cc-top{display:flex;align-items:center;gap:12px;margin-bottom:10px;}
+.cc-name{font-weight:800;font-size:.95rem;}
+.vol-card{background:#fff;border:1px solid var(--border);border-radius:12px;padding:13px 14px;display:flex;align-items:center;gap:12px;margin-bottom:8px;}
+.mc{background:#fff;border:1px solid var(--border);border-radius:12px;padding:13px 14px;display:flex;align-items:center;gap:12px;margin-bottom:8px;}
+.mc-info{flex:1;min-width:0;}
+.mc-name{font-weight:800;font-size:.9rem;}
+.perm-c{background:#fff;border:1px solid var(--border);border-radius:12px;padding:13px 14px;margin-bottom:8px;}
+.pmods{display:flex;flex-wrap:wrap;gap:5px;margin-top:8px;}
+.pmod{display:inline-flex;align-items:center;gap:4px;background:var(--sky-bg);border:1px solid #BAE6FD;color:var(--sky);font-size:.7rem;font-weight:800;padding:3px 9px;border-radius:20px;}
+.pmb{background:#fff;border:1px solid var(--border);border-radius:12px;padding:12px 14px;margin-bottom:14px;}
+.srow{display:flex;justify-content:space-between;align-items:center;padding:10px 0;border-bottom:1px solid var(--border);font-size:.86rem;}
+.srow:last-child{border-bottom:none;font-weight:800;font-size:.94rem;}
+.pwrow{display:flex;align-items:center;justify-content:space-between;padding:10px 0;border-bottom:1px solid var(--border);}
+.pwrow:last-child{border-bottom:none;}
+.mra-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:14px 0;}
+.mra{border-radius:10px;padding:14px;}
+.mra-lbl{font-size:.68rem;font-weight:800;text-transform:uppercase;letter-spacing:.05em;margin-bottom:4px;}
+.mra-val{font-family:'Noto Serif Bengali',serif;font-size:1.6rem;font-weight:800;}
+.mra-e{background:var(--forest-bg);}.mra-e .mra-lbl{color:var(--forest);}.mra-d{background:var(--gold-bg);}.mra-d .mra-lbl{color:#92400E;}
+.empty{text-align:center;padding:40px 20px;color:var(--muted);}
+.ei{font-size:2.8rem;margin-bottom:8px;}
+.locked{display:flex;align-items:center;justify-content:center;min-height:280px;flex-direction:column;gap:10px;color:var(--muted);font-size:.9rem;}
+.cbox{background:var(--saffron-lt);border:1.5px solid var(--saffron);border-radius:12px;padding:14px;margin-bottom:14px;}
+.cbox h4{color:var(--saffron-dk);margin-bottom:10px;font-size:.94rem;}
+.crow{display:flex;justify-content:space-between;font-size:.86rem;padding:5px 0;border-bottom:1px dashed #E8C4A0;}
+.crow:last-child{border-bottom:none;font-weight:800;font-size:1rem;margin-top:6px;}
+.age-opts{display:grid;grid-template-columns:1fr 1fr 1fr;gap:8px;}
+.age-opt{border:2px solid var(--border);border-radius:10px;padding:12px 6px;text-align:center;cursor:pointer;background:#fff;}
+.age-opt-icon{font-size:1.3rem;margin-bottom:3px;}
+.age-opt-lbl{font-size:.8rem;font-weight:800;}
+.age-opt-sub{font-size:.65rem;color:var(--muted);margin-top:2px;}
+.age-opt-fee{font-size:.68rem;font-weight:800;margin-top:5px;}
+.loadbar{position:fixed;top:0;left:0;right:0;height:3px;background:var(--saffron);z-index:9999;animation:loadbar 1s ease infinite;}
+@keyframes loadbar{0%{transform:scaleX(0);transform-origin:left}50%{transform:scaleX(.7);transform-origin:left}100%{transform:scaleX(1);transform-origin:left}}
+</style>
+</head>
+<body>
+<div id="app"><div class="loading-screen"><div class="spin"></div><span>লোড হচ্ছে...</span></div></div>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2/dist/umd/supabase.min.js"></script>
+<script>
+'use strict';
+// ── SUPABASE ─────────────────────────────────────────────────────────────────
+const SUPABASE_URL = "https://iqzofbohgsvufnuopgea.supabase.co";
+const SUPABASE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imlxem9mYm9oZ3N2dWZudW9wZ2VhIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzE5Mjg5MzMsImV4cCI6MjA4NzUwNDkzM30.ycCrKVDleq0dJ-oPiiywYzQTDkfKpneWZ7B0eJClcwc";
+const sb = window.supabase.createClient(SUPABASE_URL, SUPABASE_KEY);
+
+// ── CONSTANTS ────────────────────────────────────────────────────────────────
+const MOD_LABELS = {fund:"তহবিল",spending:"খরচ",events:"অনুষ্ঠান",food:"খাবার",sleep:"ঘুম",contact:"যোগাযোগ",volunteer:"স্বেচ্ছাসেবী"};
+const CHANNELS = ["নগদ (হাতে)","বিকাশ","নগদ","রকেট","ব্যাংক ট্রান্সফার"];
+const RELATIONS = ["বাবা","মা","স্বামী","স্ত্রী","ছেলে","মেয়ে","ভাই","বোন","দাদা","দাদি","নানা","নানি","চাচা","চাচি","মামা","মামি","ফুফু","ফুফা","খালু","খালা","চাচাতো ভাই/বোন","অন্যান্য"];
+const AV_COLORS = ["#E8873A","#2D6A4F","#6D28D9","#C94060","#0369A1","#F59E0B","#0891B2","#DC2626","#7C3AED","#059669"];
+const NAV = [{id:"dashboard",label:"হোম",icon:"🏠"},{id:"fund",label:"তহবিল",icon:"💰"},{id:"spending",label:"খরচ",icon:"📊"},{id:"events",label:"অনুষ্ঠান",icon:"📅"},{id:"more",label:"আরো",icon:"⋯"}];
+const MORE = [{id:"food",label:"খাবার",icon:"🍽️"},{id:"sleep",label:"ঘুম",icon:"🛏️"},{id:"contact",label:"যোগাযোগ",icon:"📞"},{id:"volunteer",label:"স্বেচ্ছাসেবী",icon:"🙋"},{id:"users",label:"সদস্য",icon:"👥"},{id:"permissions",label:"অনুমতি",icon:"🔐"}];
+
+// ── STATE ────────────────────────────────────────────────────────────────────
+let S = {
+  me: null, data: null, page: "dashboard", loading: false,
+  modal: null, sheet: null, form: {}, confirm: null,
+  tab: "all", authTab: "login", authStep: "phone", authPending: null, authErr: "",
+  noticeDismissed: false, fundTab: "all"
+};
+
+// ── HELPERS ───────────────────────────────────────────────────────────────────
+const avBg = id => AV_COLORS[(id||0) % 10];
+const typeName = t => t==="adult"?"প্রাপ্তবয়স্ক":t==="teen"?"কিশোর":"শিশু";
+const roleName = r => r==="super_admin"?"সুপার অ্যাডমিন":r==="moderator"?"মডারেটর":"সাধারণ সদস্য";
+const esc = s => String(s||"").replace(/&/g,"&amp;").replace(/</g,"&lt;").replace(/>/g,"&gt;").replace(/"/g,"&quot;");
+const av = (user, size=36) => `<div style="width:${size}px;height:${size}px;border-radius:50%;background:${avBg(user?.id)};display:flex;align-items:center;justify-content:center;font-size:${size*.42}px;font-weight:800;color:#fff;flex-shrink:0">${esc(user?.name?.charAt(0)||"?")}</div>`;
+const callBtn = (phone, small=true) => phone ? `<a href="tel:${esc(phone)}" class="btn btn-f ${small?"btn-xs":"btn-sm"}" style="color:#fff;text-decoration:none;flex-shrink:0">📞 কল</a>` : "";
+
+function canSeePhone(viewer, target, mods, page) {
+  if (!target.phone) return false;
+  if (target.id === 1) return true;
+  if (viewer.role === "super_admin") return true;
+  if (page === "volunteer") return true;
+  if (page === "users") return false;
+  if (page === "fund") return (mods.fund||[]).includes(viewer.id);
+  return Object.values(mods).some(a => a.includes(viewer.id));
+}
+function phoneLink(viewer, user, mods, page) {
+  if (user.noPhone || !user.phone) {
+    const g = user.guardianId ? (S.data?.users||[]).find(u=>u.id===user.guardianId) : null;
+    if (g?.phone) return `<a href="tel:${esc(g.phone)}" style="color:var(--sky);font-weight:700;font-size:.78rem">📞 ${esc(g.name)}</a>`;
+    return `<span style="color:var(--muted);font-size:.78rem">ফোন নেই</span>`;
+  }
+  if (canSeePhone(viewer, user, mods, page)) return `<a href="tel:${esc(user.phone)}" style="color:var(--sky);font-weight:700;font-size:.78rem">📞 ${esc(user.phone)}</a>`;
+  return `<span style="color:var(--muted);font-style:italic;font-size:.78rem">🔒 গোপন</span>`;
+}
+function pmb(moduleKey) {
+  const {users, mods} = S.data;
+  const modIds = mods[moduleKey]||[];
+  const lbl = MOD_LABELS[moduleKey]||moduleKey;
+  const isAdmin = S.me.role === "super_admin";
+  const avail = users.filter(u => u.id !== 1 && !modIds.includes(u.id));
+  let rows = modIds.map(uid => {
+    const u = users.find(x=>x.id===uid); if(!u) return "";
+    return `<div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin-bottom:8px;padding-bottom:8px;border-bottom:1px solid var(--border)">
+      <div style="display:flex;align-items:center;gap:8px">${av(u,32)}<div><div style="font-weight:800;font-size:.9rem">${esc(u.name)}</div>${u.phone?`<a href="tel:${esc(u.phone)}" style="font-size:.76rem;color:var(--sky);font-weight:700">📞 ${esc(u.phone)}</a>`:`<span style="font-size:.74rem;color:var(--muted)">ফোন নেই</span>`}</div></div>
+      <div style="display:flex;gap:5px;flex-shrink:0">${callBtn(u.phone)}${isAdmin?`<button class="btn btn-g btn-xs" style="color:var(--rose)" data-action="remove-mod" data-mod-key="${moduleKey}" data-uid="${u.id}">✕</button>`:""}</div>
+    </div>`;
+  }).join("");
+  return `<div class="pmb">
+    <div style="display:flex;align-items:flex-start;justify-content:space-between;gap:8px">
+      <div style="flex:1">
+        <div style="font-size:.72rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.05em;margin-bottom:8px">📋 <strong style="color:var(--text)">${lbl}-এর দায়িত্বে রয়েছেন</strong></div>
+        ${modIds.length===0?`<div style="font-size:.78rem;color:var(--muted);font-style:italic">এখনো কেউ নেই</div>`:""}
+        ${rows}
+      </div>
+      ${isAdmin?`<button class="btn btn-s btn-sm" style="align-self:flex-start" data-action="show-pmb-add" data-mod-key="${moduleKey}">+ যোগ</button>`:""}
+    </div>
+    <div id="pmb-add-${moduleKey}" style="display:none;gap:8px;margin-top:6px">
+      <select id="pmb-sel-${moduleKey}" class="fc" style="flex:1;min-height:40px;padding:8px 10px;font-size:.82rem">
+        <option value="">— বাছুন —</option>
+        ${avail.map(u=>`<option value="${u.id}">${esc(u.name)}</option>`).join("")}
+      </select>
+      <button class="btn btn-f btn-sm" data-action="save-mod" data-mod-key="${moduleKey}">যোগ</button>
+      <button class="btn btn-g btn-sm" data-action="close-pmb-add" data-mod-key="${moduleKey}">✕</button>
+    </div>
+  </div>`;
+}
+function modal(title, body, actions) {
+  return `<div class="modal-ov" data-action="close-modal-bg">
+    <div class="modal-sh">
+      <div class="mhandle"></div>
+      ${title?`<div class="mtitle">${title}</div>`:""}
+      ${body}
+      <div class="mact">${actions}</div>
+    </div>
+  </div>`;
+}
+function selOpts(arr, val, emptyLabel="— নির্বাচন —") {
+  return `<option value="">${emptyLabel}</option>` + arr.map(([v,l])=>`<option value="${esc(v)}" ${v==val?"selected":""}>${esc(l)}</option>`).join("");
+}
+
+// ── RAW TABLE CACHE (filled once, patched by Realtime) ────────────────────────
+let RAW = {
+  members:[], payments:[], spending_categories:[], spending_items:[],
+  event_days:[], event_items:[], food_days:[], food_items:[],
+  rooms:[], room_slots:[], volunteers:[], module_moderators:[], app_settings:[]
+};
+let RT_STATUS = "connecting"; // "connecting" | "live" | "error"
+
+// Table fetch config: order field for each table
+const TABLE_ORDER = {
+  members:"id", payments:"id", spending_categories:"id", spending_items:"id",
+  event_days:"sort_order", event_items:"sort_order",
+  food_days:"sort_order", food_items:"sort_order",
+  rooms:"id", room_slots:"slot_number", volunteers:"id",
+  module_moderators:"id", app_settings:null
+};
+
+// Fetch a single table and update RAW
+async function fetchTable(table) {
+  let q = sb.from(table).select("*");
+  if (TABLE_ORDER[table]) q = q.order(TABLE_ORDER[table]);
+  const {data} = await q;
+  RAW[table] = data || [];
+}
+
+// Unique key for a row (handles composite PKs)
+function rowKey(table, row) {
+  if (!row) return null;
+  if (table === "app_settings") return row.key;
+  if (table === "room_slots") return `${row.room_id}_${row.slot_number}`;
+  return row.id;
+}
+
+// Patch RAW with a single Realtime event (zero network calls)
+function applyChange(table, eventType, newRow, oldRow) {
+  const arr = RAW[table];
+  if (eventType === "INSERT") {
+    // avoid duplicates
+    const k = rowKey(table, newRow);
+    if (!arr.some(r => rowKey(table,r)===k)) arr.push(newRow);
+  } else if (eventType === "UPDATE") {
+    const k = rowKey(table, newRow);
+    const i = arr.findIndex(r => rowKey(table,r)===k);
+    if (i >= 0) arr[i] = newRow; else arr.push(newRow);
+  } else if (eventType === "DELETE") {
+    const k = rowKey(table, oldRow);
+    const i = arr.findIndex(r => rowKey(table,r)===k);
+    if (i >= 0) arr.splice(i, 1);
+  }
+}
+
+// ── BUILD S.DATA FROM RAW — pure transformation, zero network ─────────────────
+function buildData() {
+  const members=RAW.members, pays=RAW.payments,
+    spdCats=RAW.spending_categories, spdItems=RAW.spending_items,
+    evtDays=RAW.event_days, evtItems=RAW.event_items,
+    foodDays=RAW.food_days, foodItems=RAW.food_items,
+    rooms=RAW.rooms, roomSlots=RAW.room_slots,
+    vols=RAW.volunteers, modMods=RAW.module_moderators,
+    settings=RAW.app_settings;
+  const users = members.map(m=>({id:m.id,name:m.name,phone:m.phone,type:m.type,role:m.role,noPhone:m.no_phone,guardianId:m.guardian_id,note:m.note||"",password:m.password||""}));
+  const payments = pays.map(p=>({id:p.id,userId:p.member_id,entryFee:p.entry_fee,donation:p.donation,channel:p.channel,date:new Date(p.created_at).toLocaleDateString("bn-BD"),note:p.note||""}));
+  const spending = spdCats.map(c=>({id:c.id,category:c.category,moderatorId:c.moderator_id,received:c.received,handoversBack:c.handovers_back,items:spdItems.filter(i=>i.category_id===c.id).map(i=>({id:i.id,name:i.name,amount:i.amount}))}));
+  const events = evtDays.map(d=>({id:d.id,date:d.date,day:d.day_label,items:evtItems.filter(i=>i.event_day_id===d.id).map(i=>({id:i.id,time:i.time_label,title:i.title,desc:i.description}))}));
+  const food = foodDays.map(d=>{const di=foodItems.filter(i=>i.food_day_id===d.id);return{id:d.id,date:d.date,day:d.day_label,morning:di.filter(i=>i.meal==="morning"),noon:di.filter(i=>i.meal==="noon"),night:di.filter(i=>i.meal==="night")};});
+  const roomsData = rooms.map(r=>({id:r.id,name:r.name,capacity:r.capacity,beds:r.beds,slots:roomSlots.filter(s=>s.room_id===r.id).map(s=>({id:s.slot_number,occupantId:s.occupant_id,status:s.occupant_id?"occ":"avail"}))}));
+  const volunteers = vols.map(v=>({id:v.id,userId:v.member_id}));
+  const mods = {fund:[],spending:[],events:[],food:[],sleep:[],contact:[],volunteer:[]};
+  modMods.forEach(m=>{if(mods[m.module])mods[m.module].push(m.member_id);});
+  const notice = settings.find(s=>s.key==="notice")?.value||"";
+  const modBudgets = {};
+  settings.forEach(s=>{const m=s.key.match(/^mod_budget_(\d+)$/);if(m)modBudgets[Number(m[1])]=Number(s.value)||0;});
+  return {users,payments,spending,events,food,rooms:roomsData,volunteers,mods,notice,modBudgets};
+}
+
+// ── TARGETED RELOAD — only re-fetches the tables that changed ─────────────────
+async function reloadTables(...tables) {
+  await Promise.all(tables.map(t => fetchTable(t)));
+  S.data = buildData();
+  S.loading = false;
+  mount();
+}
+
+// Full reload (used only on initial load)
+async function reload() {
+  S.loading = true; mount();
+  await Promise.all(Object.keys(RAW).map(t => fetchTable(t)));
+  S.data = buildData();
+  S.loading = false; mount();
+}
+
+// ── REALTIME SUBSCRIPTIONS ────────────────────────────────────────────────────
+function setupRealtime() {
+  const tables = Object.keys(RAW);
+  let subCount = 0;
+  tables.forEach(table => {
+    sb.channel(`rt_${table}`)
+      .on("postgres_changes", {event:"*", schema:"public", table}, payload => {
+        applyChange(table, payload.eventType, payload.new, payload.old);
+        S.data = buildData();
+        if (!S.loading) mount();
+      })
+      .subscribe(status => {
+        if (status === "SUBSCRIBED") {
+          subCount++;
+          if (subCount >= tables.length) { RT_STATUS = "live"; if(S.me) mount(); }
+        } else if (status === "CHANNEL_ERROR" || status === "TIMED_OUT") {
+          RT_STATUS = "error"; if(S.me) mount();
+        }
+      });
+  });
+}
+
+// ── RENDER HELPERS ────────────────────────────────────────────────────────────
+function renderAuth() {
+  const {authTab:tab, authStep:step, authPending:pend, authErr:err} = S;
+  const loginContent = step==="phone" ? `
+    <div class="fg"><label>📞 মোবাইল নম্বর</label><input class="fc" id="auth-phone" type="tel" placeholder="০১xxx-xxxxxx"/></div>
+    ${err?`<div class="err-box">${esc(err)}</div>`:""}
+    <button class="btn btn-p btn-w" data-action="auth-login">লগইন করুন →</button>
+    <div style="margin-top:14px;font-size:.72rem;color:var(--muted);text-align:center;line-height:1.7">:<br/></div>
+  ` : `
+    <div class="lock-hint">🔐 <div><strong>${esc(pend?.name)}</strong> – সুরক্ষিত অ্যাকাউন্ট। পাসওয়ার্ড দিন।</div></div>
+    <div class="fg"><label>🔑 পাসওয়ার্ড</label><input class="fc" id="auth-pw" type="password" placeholder="পাসওয়ার্ড লিখুন"/></div>
+    ${err?`<div class="err-box">${esc(err)}</div>`:""}
+    <div class="mact">
+      <button class="btn btn-s" data-action="auth-back">← ফিরুন</button>
+      <button class="btn btn-p" data-action="auth-pw">প্রবেশ করুন →</button>
+    </div>
+    <div style="margin-top:12px;font-size:.72rem;color:var(--muted);text-align:center"></div>
+  `;
+  const regContent = `
+    <div class="fg"><label>👤 আপনার পুরো নাম</label><input class="fc" id="auth-name" placeholder="পুরো নাম লিখুন"/></div>
+    <div class="fg"><label>📞 মোবাইল নম্বর</label><input class="fc" id="auth-regphone" type="tel" placeholder="০১xxx-xxxxxx"/></div>
+    ${err?`<div class="err-box">${esc(err)}</div>`:""}
+    <button class="btn btn-p btn-w" data-action="auth-register">নিবন্ধন করুন →</button>
+  `;
+  return `<div class="auth-wrap"><div class="auth-logo">🌙</div>
+    <div class="auth-title">🌙 কাঞ্চনআলী মাতুব্বর পরিবার মিলন উৎসব</div>
+    <div class="auth-sub">ঈদুল ফিতর ২০২৬ · মার্চ ১৯–২৫ · বরিশাল, বাংলাদেশ</div>
+    <div class="auth-card">
+      <div class="auth-tabs">
+        <button class="auth-tab ${tab==="login"?"on":""}" data-action="auth-tab" data-tab="login">লগইন</button>
+        <button class="auth-tab ${tab==="register"?"on":""}" data-action="auth-tab" data-tab="register">নিবন্ধন</button>
+      </div>
+      ${tab==="login" ? loginContent : regContent}
+    </div>
+  </div>`;
+}
+
+function renderTopbar() {
+  const allPages = [...NAV.filter(n=>n.id!=="more"),...MORE];
+  const lbl = allPages.find(n=>n.id===S.page)?.label||"হোম";
+  const rtDot = RT_STATUS==="live"
+    ? `<div title="রিয়েলটাইম সক্রিয়" style="width:7px;height:7px;border-radius:50%;background:#4ade80;flex-shrink:0;box-shadow:0 0 5px #4ade80"></div>`
+    : RT_STATUS==="error"
+    ? `<div title="সংযোগ সমস্যা" style="width:7px;height:7px;border-radius:50%;background:#f87171;flex-shrink:0"></div>`
+    : `<div title="সংযোগ হচ্ছে…" style="width:7px;height:7px;border-radius:50%;background:#fbbf24;flex-shrink:0;animation:pulse 1.2s infinite"></div>`;
+  return `<div class="topbar">
+    <div style="display:flex;align-items:center;gap:7px">
+      <div><div class="topbar-title">🌙 কাঞ্চনআলী মাতুব্বর পরিবার মিলন</div><div class="topbar-sub">${lbl}</div></div>
+      ${rtDot}
+    </div>
+    <div class="topbar-user" data-action="toggle-user-sheet">
+      <div style="text-align:right"><div class="topbar-uname">${esc(S.me.name)}</div><div style="font-size:.6rem;color:rgba(255,255,255,.4)">${roleName(S.me.role)}</div></div>
+      <div class="topbar-avatar" style="background:${avBg(S.me.id)}">${esc(S.me.name.charAt(0))}</div>
+    </div>
+  </div>`;
+}
+function renderNav() {
+  const moreIds = MORE.map(p=>p.id);
+  const activeTab = moreIds.includes(S.page) ? "more" : S.page;
+  return `<div class="nb">${NAV.map(n=>`<button class="nb-i ${activeTab===n.id?"on":""}" data-action="nav" data-page="${n.id}"><div class="nb-icon">${n.icon}</div><div class="nb-lbl">${n.label}</div></button>`).join("")}</div>`;
+}
+
+// ── PAGES ─────────────────────────────────────────────────────────────────────
+function renderDashboard() {
+  const {users, payments, mods, notice, events} = S.data;
+  const total = payments.reduce((s,p)=>s+p.entryFee+p.donation,0);
+  const totalDon = payments.reduce((s,p)=>s+p.donation,0);
+  const donors = [...payments].sort((a,b)=>b.donation-a.donation).slice(0,6).map(p=>({...p,user:users.find(u=>u.id===p.userId)})).filter(d=>d.donation>0);
+  const admin = users.find(u=>u.id===1);
+  const fundMods = (mods.fund||[]).map(id=>users.find(u=>u.id===id)).filter(Boolean);
+  const isAdmin = S.me.role==="super_admin";
+  return `<div class="pi" style="padding-top:0">
+    ${notice&&!S.noticeDismissed?`<div class="notice-bar"><span style="font-size:1.1rem;flex-shrink:0">📢</span><span style="flex:1">${esc(notice)}</span><span class="notice-bar-x" data-action="dismiss-notice">✕</span></div>`:""}
+    <div style="padding:14px 0 0">
+      ${isAdmin?`<div style="display:flex;gap:8px;margin-bottom:12px">
+        <button class="btn btn-sm" style="background:#6D28D9;color:#fff;flex:1" data-action="open-modal" data-modal="notice-edit">📢 ${notice?"নোটিশ পরিবর্তন":"নোটিশ দিন"}</button>
+        ${notice?`<button class="btn btn-d btn-sm" data-action="delete-notice">🗑 মুছুন</button>`:""}
+      </div>`:""}
+      <div class="hero">
+        <h2>🌙 কাঞ্চনআলী মাতুব্বর পরিবার মিলন উৎসব<br/>ঈদুল ফিতর ২০২৬</h2>
+        <p>মার্চ ১৯–২৫ · বরিশাল, বাংলাদেশ</p>
+        <div class="hs-row">
+          <div class="hs"><div class="hs-val">${users.length}</div><div class="hs-lbl">সদস্য</div></div>
+          <div class="hs"><div class="hs-val">৳${total.toLocaleString()}</div><div class="hs-lbl">তহবিল</div></div>
+          <div class="hs"><div class="hs-val">${events.length||7}</div><div class="hs-lbl">দিন</div></div>
+        </div>
+      </div>
+      <div class="sr2">
+        <div class="chip cs"><div class="chip-val">৳${total.toLocaleString()}</div><div class="chip-lbl">মোট সংগ্রহ</div></div>
+        <div class="chip cf"><div class="chip-val">৳${totalDon.toLocaleString()}</div><div class="chip-lbl">মোট অনুদান</div></div>
+      </div>
+      <div class="st">🏅 শীর্ষ পৃষ্ঠপোষক</div>
+      <div class="card">${donors.map((d,i)=>`<div class="donor-row">
+        <div class="donor-rank">${i===0?"🥇":i===1?"🥈":i===2?"🥉":`${i+1}.`}</div>
+        ${av(d.user,40)}
+        <div class="donor-info"><div class="donor-name">${esc(d.user?.name)}</div><div class="donor-sub">${esc(d.channel)}</div></div>
+        <div style="text-align:right;flex-shrink:0"><div class="donor-amt">৳${d.donation.toLocaleString()}</div><div style="font-size:.65rem;color:var(--muted)">অনুদান</div></div>
+      </div>`).join("")}</div>
+      <div class="qcs">
+        <div class="qcs-lbl">🤲 আরো অনুদান দিতে যোগাযোগ করুন</div>
+        ${admin?`<div class="qcr"><div style="display:flex;align-items:center;gap:8px">${av(admin,30)}<div><div class="qc-name">${esc(admin.name)}</div><div class="qc-role">সুপার অ্যাডমিন</div></div></div>${callBtn(admin.phone)}</div>`:""}
+        ${fundMods.map(u=>`<div class="qcr"><div style="display:flex;align-items:center;gap:8px">${av(u,30)}<div><div class="qc-name">${esc(u.name)}</div><div class="qc-role">তহবিল দায়িত্ব</div></div></div>${callBtn(u.phone)}</div>`).join("")}
+      </div>
+    </div>
+    ${S.modal==="notice-edit"?modal("📢 নোটিশ প্রকাশ",`<div class="fg"><label>নোটিশ</label><textarea class="fc" id="notice-txt" rows="4" placeholder="নোটিশ লিখুন...">${esc(notice)}</textarea></div><div class="info">সব সদস্য হোম পেজে দেখবেন।</div>`,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-pu" data-action="save-notice">📢 প্রকাশ করুন</button>`):""}
+  </div>`;
+}
+
+function renderFund() {
+  const {users, payments, mods} = S.data;
+  const canEdit = S.me.role==="super_admin"||(mods.fund||[]).includes(S.me.id);
+  const isAdmin = S.me.role==="super_admin";
+  const tab = S.fundTab||"all";
+  const totalE = payments.reduce((s,p)=>s+p.entryFee,0);
+  const totalD = payments.reduce((s,p)=>s+p.donation,0);
+  let content = "";
+  if (tab==="all") {
+    content = users.map(u=>{
+      const pay = payments.find(p=>p.userId===u.id)||null;
+      const req = u.type==="adult"?500:u.type==="teen"?300:0;
+      const status = !pay?"sb-unpaid":pay.entryFee>=req?"sb-paid":"sb-partial";
+      const statusLbl = !pay?"বাকি":pay.entryFee>=req?"পরিশোধিত":"আংশিক";
+      return `<div class="pay-card ${!pay?"dim":""}">
+        ${av(u,42)}
+        <div class="pay-info">
+          <div class="pay-name">${esc(u.name)}</div>
+          ${phoneLink(S.me,u,mods,"fund")}
+          ${pay?`<div class="pay-tags"><span class="ptag ptag-e">প্রবেশ: ৳${pay.entryFee}</span>${pay.donation>0?`<span class="ptag ptag-d">অনুদান: ৳${pay.donation}</span>`:""}<span class="ptag ptag-t">৳${pay.entryFee+pay.donation}</span></div>`:""}
+          ${pay?.note?`<div style="font-size:.7rem;color:var(--muted);margin-top:3px;font-style:italic">${esc(pay.note)}</div>`:""}
+        </div>
+        <div class="pay-right">
+          <span class="tag ${u.type==="adult"?"tag-a":u.type==="teen"?"tag-t":"tag-c"}">${typeName(u.type)}</span>
+          <span class="sbadge ${status}">${statusLbl}</span>
+          ${canEdit&&isAdmin&&pay?`<button class="btn btn-s btn-xs" data-action="open-modal" data-modal="payment-form" data-pay-id="${pay.id}" data-user-id="${u.id}">✏️</button>`:""}
+          ${canEdit&&!pay?`<button class="btn btn-p btn-xs" data-action="open-modal" data-modal="payment-form" data-user-id="${u.id}" data-entry-fee="${req}">রেকর্ড</button>`:""}
+        </div>
+      </div>`;
+    }).join("");
+  } else {
+    const p = payments.find(x=>x.userId===S.me.id);
+    content = !p ? `<div class="empty"><div class="ei">💸</div>কোনো রেকর্ড নেই</div>` : `
+      <div style="background:#fff;border:1px solid var(--border);border-radius:14px;padding:18px">
+        <div style="display:flex;align-items:center;gap:12px;margin-bottom:16px">${av(S.me,52)}<div><div style="font-weight:800;font-size:1rem">${esc(S.me.name)}</div></div></div>
+        <div class="mra-grid"><div class="mra mra-e"><div class="mra-lbl">প্রবেশ ফি</div><div class="mra-val">৳${p.entryFee}</div></div><div class="mra mra-d"><div class="mra-lbl">অনুদান</div><div class="mra-val">৳${p.donation}</div></div></div>
+        <div style="text-align:center;background:var(--cream);border-radius:10px;padding:14px">
+          <div style="font-size:.76rem;color:var(--muted);margin-bottom:4px">মোট অবদান</div>
+          <div style="font-family:'Noto Serif Bengali';font-size:2rem;font-weight:800;color:var(--saffron)">৳${p.entryFee+p.donation}</div>
+          <div style="font-size:.74rem;color:var(--muted)">${esc(p.channel)} · ${esc(p.date)}</div>
+        </div>
+      </div>`;
+  }
+  const {form:f, modal:m, confirm:conf} = S;
+  let modalHtml = "";
+  if (m==="payment-form") {
+    const editPay = f._editPayId ? payments.find(p=>p.id===f._editPayId) : null;
+    modalHtml = modal(editPay?"পেমেন্ট সম্পাদনা":"পেমেন্ট রেকর্ড",`
+      <div class="fg"><label>সদস্য</label>
+        <select class="fc" id="f-userId" ${editPay?"disabled":""}>
+          <option value="">— সদস্য নির্বাচন করুন —</option>
+          ${users.filter(u=>editPay?true:!payments.find(p=>p.userId===u.id)).map(u=>`<option value="${u.id}" ${u.id==f.userId?"selected":""}>${esc(u.name)}</option>`).join("")}
+        </select>
+      </div>
+      <div class="fr2">
+        <div class="fg"><label>প্রবেশ ফি (৳)</label><input class="fc" id="f-entryFee" type="number" value="${esc(f.entryFee||"")}"/></div>
+        <div class="fg"><label>অনুদান (৳)</label><input class="fc" id="f-donation" type="number" value="${esc(f.donation||0)}"/></div>
+      </div>
+      <div class="fg"><label>মাধ্যম</label><select class="fc" id="f-channel">${CHANNELS.map(c=>`<option ${c===f.channel?"selected":""}>${esc(c)}</option>`).join("")}</select></div>
+      <div class="fg"><label>নোট</label><input class="fc" id="f-note" value="${esc(f.note||"")}"/></div>
+    `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="payment-preview">পর্যালোচনা →</button>`);
+  } else if (m==="payment-confirm" && conf) {
+    modalHtml = modal("নিশ্চিত করুন",`<div class="cbox"><h4>⚠️ পেমেন্ট নিশ্চিত করুন:</h4>
+      <div class="crow"><span>সদস্য:</span><strong>${esc(conf.userName)}</strong></div>
+      <div class="crow"><span>প্রবেশ ফি:</span><strong>৳${conf.entryFee}</strong></div>
+      <div class="crow"><span>অনুদান:</span><strong>৳${conf.donation}</strong></div>
+      <div class="crow"><span>মাধ্যম:</span><strong>${esc(conf.channel)}</strong></div>
+      <div class="crow"><span>মোট:</span><strong style="color:var(--saffron-dk);font-size:1.1rem">৳${conf.entryFee+conf.donation}</strong></div>
+    </div>`,`<button class="btn btn-s" data-action="payment-back">← ফিরুন</button><button class="btn btn-f" data-action="payment-save">✓ সংরক্ষণ করুন</button>`);
+  }
+  return `<div class="pi">
+    ${pmb("fund")}
+    <div class="notice">প্রবেশ ফি: প্রাপ্তবয়স্ক ৳৫০০ · কিশোর (১২+) ৳৩০০ · অনুদান সবসময় স্বাগত!</div>
+    <div class="sr3"><div class="chip cf"><div class="chip-val">৳${totalE.toLocaleString()}</div><div class="chip-lbl">প্রবেশ ফি</div></div><div class="chip cg"><div class="chip-val">৳${totalD.toLocaleString()}</div><div class="chip-lbl">অনুদান</div></div><div class="chip cs"><div class="chip-val">৳${(totalE+totalD).toLocaleString()}</div><div class="chip-lbl">মোট</div></div></div>
+    <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:10px">
+      <div class="tab-row" style="margin:0;border:none">
+        <button class="tab-btn ${tab==="all"?"on":""}" data-action="fund-tab" data-tab="all">সব</button>
+        <button class="tab-btn ${tab==="me"?"on":""}" data-action="fund-tab" data-tab="me">আমার</button>
+      </div>
+      ${canEdit?`<button class="btn btn-p btn-sm" data-action="open-modal" data-modal="payment-form" data-new="1">+ পেমেন্ট</button>`:""}
+    </div>
+    ${content}
+    ${modalHtml}
+  </div>`;
+}
+
+function renderSpending() {
+  const {users, payments, spending, mods, modBudgets} = S.data;
+  const isAdmin = S.me.role==="super_admin";
+  const isSpendMod = (mods.spending||[]).includes(S.me.id);
+
+  // ── Totals ────────────────────────────────────────────────────────────────
+  const totalCol       = payments.reduce((s,p)=>s+p.entryFee+p.donation,0);
+  const totalAllocated = Object.values(modBudgets).reduce((s,v)=>s+v,0);
+  const totalSpent     = spending.reduce((s,c)=>s+c.items.reduce((a,i)=>a+i.amount,0),0);
+  const totalInHand    = totalAllocated - totalSpent;
+  const unallocated    = totalCol - totalAllocated;
+  const isDeficit      = unallocated < 0;
+  const {modal:m, form:f} = S;
+
+  // ── Banner ────────────────────────────────────────────────────────────────
+  const banner = `
+    <div style="border-radius:14px;overflow:hidden;margin-bottom:16px;border:1.5px solid ${isDeficit?"var(--rose)":"var(--forest)"}">
+      <div style="background:${isDeficit?"var(--rose)":"var(--forest)"};padding:13px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px">
+        <div>
+          <div style="font-size:.63rem;font-weight:800;color:rgba(255,255,255,.55);text-transform:uppercase;letter-spacing:.07em;margin-bottom:3px">💰 বরাদ্দযোগ্য তহবিল</div>
+          <div style="font-family:'Noto Serif Bengali';font-size:1.8rem;font-weight:800;color:#fff;line-height:1">${isDeficit?"–":""} ৳${Math.abs(unallocated).toLocaleString()}</div>
+          <div style="font-size:.68rem;color:rgba(255,255,255,.6);margin-top:3px">${isDeficit?"⚠️ বরাদ্দ সংগ্রহ ছাড়িয়েছে":"এখনো কাউকে বরাদ্দ হয়নি"}</div>
+        </div>
+        ${isAdmin?`<button class="btn btn-sm" style="background:#fff;color:${isDeficit?"var(--rose)":"var(--forest)"};font-weight:800;flex-shrink:0" data-action="open-modal" data-modal="alloc-mod">➕ বরাদ্দ করুন</button>`:""}
+      </div>
+      <div style="background:#fff;display:flex;border-top:1px solid var(--border)">
+        <div style="flex:1;border-right:1px solid var(--border);padding:10px 12px">
+          <div style="font-size:.59rem;font-weight:800;color:var(--muted);text-transform:uppercase;margin-bottom:3px">মোট সংগ্রহ</div>
+          <div style="font-weight:800;font-size:.94rem;color:var(--forest)">৳${totalCol.toLocaleString()}</div>
+        </div>
+        <div style="flex:1;border-right:1px solid var(--border);padding:10px 12px">
+          <div style="font-size:.59rem;font-weight:800;color:var(--muted);text-transform:uppercase;margin-bottom:3px">মডারেটর কর্তৃক খরচ</div>
+          <div style="font-weight:800;font-size:.94rem;color:var(--rose)">৳${totalSpent.toLocaleString()}</div>
+        </div>
+        <div style="flex:1;padding:10px 12px">
+          <div style="font-size:.59rem;font-weight:800;color:var(--muted);text-transform:uppercase;margin-bottom:3px">মডারেটরের হাতে আছে</div>
+          <div style="font-weight:800;font-size:.94rem;color:${totalInHand<0?"var(--rose)":"var(--sky)"}">৳${totalInHand.toLocaleString()}</div>
+        </div>
+      </div>
+    </div>`;
+
+  // ── Per-moderator sections ────────────────────────────────────────────────
+  const allModIds = [...new Set([
+    ...(mods.spending||[]),
+    ...spending.map(c=>c.moderatorId)
+  ])].filter(Boolean);
+  // All members can VIEW spending; only admin/spendMod can manage
+  const viewerModIds = allModIds; // everyone sees all moderators
+
+  const modSections = viewerModIds.map(modId=>{
+    const mod = users.find(u=>u.id===modId);
+    if(!mod) return "";
+    const myCats = spending.filter(c=>c.moderatorId===modId);
+    const mySpent = myCats.reduce((s,c)=>s+c.items.reduce((a,i)=>a+i.amount,0),0);
+    const myBudget = modBudgets[modId]||0;
+    const myRemain = myBudget - mySpent;
+    const pct = myBudget>0 ? Math.min(100,Math.round((mySpent/myBudget)*100)) : (mySpent>0?100:0);
+    const isMe = modId===S.me.id;
+    const canManage = isAdmin||isMe;
+    return `<div style="background:#fff;border:1.5px solid ${myRemain<0?"var(--rose)":isMe?"var(--saffron)":"var(--border)"};border-radius:14px;overflow:hidden;margin-bottom:12px">
+      <div style="background:${isMe?"var(--saffron-lt)":"var(--cream)"};padding:13px 14px;border-bottom:1px solid var(--border)">
+        <div style="display:flex;align-items:center;gap:10px">
+          ${av(mod,42)}
+          <div style="flex:1;min-width:0">
+            <div style="font-weight:800;font-size:.95rem">${esc(mod.name)}</div>
+            <div style="font-size:.7rem;color:var(--muted);margin-top:1px">খরচ মডারেটর</div>
+          </div>
+          ${isAdmin?`<button class="btn btn-s btn-sm" style="flex-shrink:0" data-action="open-modal" data-modal="alloc-mod" data-mod-id="${modId}">+ বরাদ্দ</button>`:""}
+        </div>
+        <div style="margin-top:10px">
+          <div style="display:flex;justify-content:space-between;font-size:.74rem;font-weight:700;margin-bottom:5px">
+            <span style="color:var(--forest)">বরাদ্দ: ৳${myBudget.toLocaleString()}</span>
+            <span style="color:var(--rose)">খরচ: ৳${mySpent.toLocaleString()}</span>
+          </div>
+          <div style="height:6px;background:#EAE2D8;border-radius:3px;overflow:hidden">
+            <div style="height:100%;border-radius:3px;background:${myRemain<0?"var(--rose)":"var(--saffron)"};width:${pct}%"></div>
+          </div>
+          <div style="margin-top:6px;display:flex;align-items:center;justify-content:space-between;gap:8px">
+            <div style="font-family:'Noto Serif Bengali';font-size:1.15rem;font-weight:800;color:${myRemain<0?"var(--rose)":"var(--forest)"}">
+              ${myRemain<0?`–৳${Math.abs(myRemain).toLocaleString()} <small style="font-size:.68rem;font-family:'Noto Sans Bengali';color:var(--rose)">ঘাটতি</small>`:`৳${myRemain.toLocaleString()} <small style="font-size:.68rem;font-family:'Noto Sans Bengali';color:var(--muted)">হাতে আছে</small>`}
+            </div>
+            ${myRemain>0?(isAdmin||isMe)?`<button class="btn btn-f btn-sm" style="flex-shrink:0" data-action="open-modal" data-modal="handover-mod" data-mod-id="${modId}" data-remain="${myRemain}">↩ তহবিলে ফেরত</button>`:"":""}
+          </div>
+        </div>
+      </div>
+      <div style="padding:10px 14px">
+        <div style="display:flex;align-items:center;justify-content:space-between;margin-bottom:8px">
+          <div style="font-size:.7rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.05em">ক্যাটাগরি (${myCats.length})</div>
+          ${canManage?`<button class="btn btn-p btn-xs" data-action="open-modal" data-modal="add-cat" data-mod-id="${modId}">+ নতুন ক্যাটাগরি</button>`:""}
+        </div>
+        ${myCats.length===0?`<div style="font-size:.8rem;color:var(--muted);font-style:italic;padding:6px 0">কোনো ক্যাটাগরি নেই</div>`:""}
+        ${myCats.map(cat=>{
+          const catSpent=cat.items.reduce((s,i)=>s+i.amount,0);
+          const ce=isAdmin||cat.moderatorId===S.me.id;
+          return `<div style="border:1px solid var(--border);border-radius:10px;overflow:hidden;margin-bottom:8px">
+            <div style="background:#FAFAF8;padding:9px 12px;display:flex;align-items:center;justify-content:space-between;gap:8px">
+              <div style="font-weight:800;font-size:.88rem">${esc(cat.category)}</div>
+              ${ce?`<button class="btn btn-s btn-xs" data-action="open-modal" data-modal="add-item" data-cat-id="${cat.id}">+ আইটেম</button>`:""}
+            </div>
+            ${cat.items.map(item=>`<div class="scat-item"><span>${esc(item.name)}</span><div style="display:flex;align-items:center;gap:6px"><span class="amt ar">৳${item.amount.toLocaleString()}</span>${ce?`<button class="btn btn-g btn-xs" data-action="open-modal" data-modal="edit-item" data-item-id="${item.id}" data-cat-id="${cat.id}">✏️</button><button class="btn btn-g btn-xs" style="color:var(--rose)" data-action="del-spending-item" data-item-id="${item.id}">🗑</button>`:""}</div></div>`).join("")}
+            ${cat.items.length===0?`<div style="padding:10px 12px;font-size:.78rem;color:var(--muted);font-style:italic">কোনো আইটেম নেই</div>`:""}
+            <div style="background:#FAFAF8;padding:8px 12px;border-top:1px solid var(--border);display:flex;justify-content:space-between;font-size:.82rem;font-weight:800">
+              <span>মোট খরচ</span><span class="amt ar">৳${catSpent.toLocaleString()}</span>
+            </div>
+          </div>`;
+        }).join("")}
+      </div>
+    </div>`;
+  }).join("");
+
+  // ── Summary ───────────────────────────────────────────────────────────────
+  const summary = [
+    ["মোট সংগ্রহ",`৳${totalCol.toLocaleString()}`,"ag"],
+    ["মডারেটরদের মোট বরাদ্দ",`৳${totalAllocated.toLocaleString()}`,"ao"],
+    ["মডারেটর কর্তৃক মোট খরচ",`৳${totalSpent.toLocaleString()}`,"ar"],
+    ["মডারেটরের হাতে আছে",`৳${totalInHand.toLocaleString()}`,totalInHand<0?"ar":"ask"],
+    [isDeficit?"⚠️ অতিরিক্ত বরাদ্দ (ঘাটতি)":"এখনো বরাদ্দ হয়নি",isDeficit?`–৳${Math.abs(unallocated).toLocaleString()}`:`৳${unallocated.toLocaleString()}`,isDeficit?"ar":"ao"],
+  ].map(([l,v,c])=>`<div class="srow"><span>${l}</span><span class="amt ${c}">${v}</span></div>`).join("");
+
+  // ── Modals ────────────────────────────────────────────────────────────────
+  let modalHtml="";
+  if(m==="alloc-mod"){
+    const preModId = f._modId||"";
+    const spendModUsers = [...new Set([...(mods.spending||[]),...spending.map(c=>c.moderatorId)])].filter(Boolean).map(id=>users.find(u=>u.id===id)).filter(Boolean);
+    modalHtml=modal("💰 মডারেটরকে তহবিল বরাদ্দ",`
+      <div style="background:${isDeficit?"var(--rose-bg)":"var(--forest-bg)"};border:1.5px solid ${isDeficit?"var(--rose)":"var(--forest)"};border-radius:10px;padding:12px 14px;margin-bottom:14px">
+        <div style="font-size:.7rem;font-weight:800;color:${isDeficit?"var(--rose)":"var(--forest)"};text-transform:uppercase;margin-bottom:3px">${isDeficit?"⚠️ ঘাটতি অবস্থা":"বরাদ্দযোগ্য তহবিল"}</div>
+        <div style="font-family:'Noto Serif Bengali';font-size:1.7rem;font-weight:800;color:${isDeficit?"var(--rose)":"var(--forest)"};">${isDeficit?"–":""} ৳${Math.abs(unallocated).toLocaleString()}</div>
+        <div style="font-size:.7rem;color:var(--muted);margin-top:2px">${isDeficit?"বরাদ্দ সংগ্রহ ছাড়িয়েছে — তবু বরাদ্দ করা যাবে":"মোট সংগ্রহ থেকে বরাদ্দ হয়নি"}</div>
+      </div>
+      <div class="fg"><label>মডারেটর নির্বাচন করুন</label>
+        <select class="fc" id="f-allocModId">
+          <option value="">— মডারেটর বাছুন —</option>
+          ${spendModUsers.map(u=>{const cur=modBudgets[u.id]||0;const sp=spending.filter(c=>c.moderatorId===u.id).reduce((s,c)=>s+c.items.reduce((a,i)=>a+i.amount,0),0);return`<option value="${u.id}" ${String(u.id)===String(preModId)?"selected":""}>${esc(u.name)} — বরাদ্দ: ৳${cur.toLocaleString()}, খরচ: ৳${sp.toLocaleString()}</option>`;}).join("")}
+        </select>
+      </div>
+      <div class="fg"><label>বরাদ্দের পরিমাণ (৳)</label>
+        <input class="fc" id="f-allocAmt" type="number" min="1" placeholder="যেমন: 5000" value="${esc(f.allocAmt||"")}"/>
+        ${isDeficit?`<div class="fcnote" style="color:var(--rose)">⚠️ এই বরাদ্দে ঘাটতি আরো বাড়বে</div>`:`<div class="fcnote">বরাদ্দযোগ্য: ৳${unallocated.toLocaleString()}</div>`}
+      </div>
+    `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-alloc-mod">✓ বরাদ্দ করুন</button>`);
+  }
+  else if(m==="add-cat"){
+    const preModId = f._modId||(isSpendMod?S.me.id:"");
+    modalHtml=modal("নতুন ক্যাটাগরি",`
+      ${isAdmin?`<div class="fg"><label>মডারেটর</label><select class="fc" id="f-catModId">
+        <option value="">— বাছুন —</option>
+        ${[...new Set([...(mods.spending||[]),...spending.map(c=>c.moderatorId)])].filter(Boolean).map(id=>users.find(u=>u.id===id)).filter(Boolean).map(u=>`<option value="${u.id}" ${String(u.id)===String(preModId)?"selected":""}>${esc(u.name)}</option>`).join("")}
+        </select></div>`:`<div class="info">এই ক্যাটাগরি আপনার (<strong>${esc(S.me.name)}</strong>) নামে তৈরি হবে।</div>`}
+      <div class="fg"><label>ক্যাটাগরির নাম</label><input class="fc" id="f-category" value="${esc(f.category||"")}"/></div>
+    `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-cat">তৈরি করুন</button>`);
+  }
+  else if(m==="add-item"||m==="edit-item"){modalHtml=modal(m==="edit-item"?"আইটেম সম্পাদনা":"আইটেম যোগ",`<div class="fg"><label>নাম</label><input class="fc" id="f-itemName" value="${esc(f.itemName||"")}"/></div><div class="fg"><label>পরিমাণ (৳)</label><input class="fc" id="f-itemAmt" type="number" value="${esc(f.itemAmt||"")}"/></div>`,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-spending-item">সংরক্ষণ</button>`);}
+  else if(m==="handover-mod"){
+    const hMod = users.find(u=>u.id===Number(f._modId));
+    modalHtml=modal("↩ তহবিলে ফেরত",`
+      <div style="background:var(--forest-bg);border:1px solid var(--forest);border-radius:10px;padding:11px 13px;margin-bottom:14px;display:flex;align-items:center;gap:10px">
+        ${av(hMod,38)}
+        <div>
+          <div style="font-weight:800;font-size:.9rem">${esc(hMod?.name)}</div>
+          <div style="font-size:.74rem;color:var(--forest);font-weight:700">হাতে আছে: ৳${Number(f._remain||0).toLocaleString()}</div>
+        </div>
+      </div>
+      <div class="fg"><label>ফেরতের পরিমাণ (৳)</label>
+        <input class="fc" id="f-handoverModAmt" type="number" min="1" max="${f._remain||""}" placeholder="যেমন: 1000" value=""/>
+        <div class="fcnote">সর্বোচ্চ ফেরত দেওয়া যাবে: ৳${Number(f._remain||0).toLocaleString()}</div>
+      </div>
+    `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-f" data-action="save-handover-mod">✓ ফেরত নিশ্চিত করুন</button>`);
+  }
+  else if(m==="handover"){modalHtml=modal("তহবিলে ফেরত",`<div class="fg"><label>ফেরত পরিমাণ (৳)</label><input class="fc" id="f-handoverAmt" type="number" value="${esc(f.handoverAmt||"")}"/></div>`,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-f" data-action="save-handover">রেকর্ড করুন</button>`);}
+
+  return `<div class="pi">${pmb("spending")}
+    ${banner}
+    <div class="sh-row"><div class="st">মডারেটর ভিত্তিক খরচ</div>${isAdmin?`<button class="btn btn-p btn-sm" data-action="open-modal" data-modal="alloc-mod">+ বরাদ্দ</button>`:""}</div>
+    ${viewerModIds.length===0?`<div class="empty"><div class="ei">👤</div>কোনো মডারেটর নেই।<br/><small>অনুমতি পাতায় খরচ মডারেটর যোগ করুন।</small></div>`:""}
+    ${modSections}
+    <div class="st">তহবিলের সারসংক্ষেপ</div><div class="card"><div style="padding:0 14px">${summary}</div></div>
+    ${modalHtml}
+  </div>`;
+}
+
+function renderEvents() {
+  const {events, mods} = S.data;
+  const canEdit = S.me.role==="super_admin"||(mods.events||[]).includes(S.me.id);
+  const {modal:m, form:f} = S;
+  const rows = events.map((day,di)=>`<div class="tl-day">
+    <div class="tl-m"><div class="tl-dot">${di+1}</div>${di<events.length-1?`<div class="tl-line"></div>`:""}</div>
+    <div class="tl-body">
+      <div class="tl-date" style="display:flex;align-items:center;justify-content:space-between;gap:8px">
+        <span>${esc(day.day)} · ${esc(day.date)}</span>
+        ${canEdit?`<button class="btn btn-g btn-xs" style="color:var(--rose);flex-shrink:0" data-action="del-event-day" data-day-id="${day.id}">🗑 দিন মুছুন</button>`:""}
+      </div>
+      ${day.items.map(ev=>`<div class="tl-item">
+        ${canEdit?`<div class="ia"><button class="btn btn-g btn-xs" data-action="open-modal" data-modal="edit-event" data-event-id="${ev.id}" data-day-id="${day.id}">✏️</button><button class="btn btn-g btn-xs" style="color:var(--rose)" data-action="del-event" data-event-id="${ev.id}">🗑</button></div>`:""}
+        <div class="tl-time">${esc(ev.time)}</div>
+        <h4 style="padding-right:${canEdit?50:0}px">${esc(ev.title)}</h4>
+        <p>${esc(ev.desc)}</p>
+      </div>`).join("")}
+    </div>
+  </div>`).join("");
+  let modalHtml="";
+  if(m==="add-event"||m==="edit-event"){
+    modalHtml=modal(m==="edit-event"?"অনুষ্ঠান সম্পাদনা":"অনুষ্ঠান যোগ",`
+      ${m==="add-event"?`
+        <div class="fg"><label>তারিখ</label><input class="fc" id="f-evDate" type="date" value="${esc(f.evDate||"")}"/></div>
+        <div class="fg"><label>দিনের নাম</label><input class="fc" id="f-evDayLabel" value="${esc(f.evDayLabel||"")}" placeholder="যেমন: ১ম দিন, ২য় দিন..."/></div>
+      `:""}
+      <div class="fg"><label>সময়</label><input class="fc" id="f-evTime" value="${esc(f.evTime||"")}" placeholder="যেমন: সকাল ১০টা"/></div>
+      <div class="fg"><label>নাম</label><input class="fc" id="f-evTitle" value="${esc(f.evTitle||"")}"/></div>
+      <div class="fg"><label>বিবরণ</label><textarea class="fc" id="f-evDesc" rows="3">${esc(f.evDesc||"")}</textarea></div>
+    `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-event">সংরক্ষণ</button>`);
+  }
+  return `<div class="pi">${pmb("events")}
+    <div class="sh-row"><div class="st">অনুষ্ঠানের সূচি</div>${canEdit?`<button class="btn btn-p btn-sm" data-action="open-modal" data-modal="add-event">+ অনুষ্ঠান</button>`:""}</div>
+    ${rows}${modalHtml}
+  </div>`;
+}
+
+function renderFood() {
+  const {food, mods} = S.data;
+  const canEdit = S.me.role==="super_admin"||(mods.food||[]).includes(S.me.id);
+  const meals = [["morning","সকাল ☀️","fm-am"],["noon","দুপুর 🌤️","fm-no"],["night","রাত 🌙","fm-ni"]];
+  const {modal:m, form:f} = S;
+  const rows = food.map(day=>`<div class="food-dc">
+    <div class="food-dh" style="display:flex;align-items:center;justify-content:space-between">
+      <h3>${esc(day.day)} · ${esc(day.date)}</h3>
+      ${canEdit?`<button class="btn btn-d btn-xs" style="color:#fff;background:rgba(201,64,96,.7);border:none" data-action="del-food-day" data-day-id="${day.id}">🗑 দিন মুছুন</button>`:""}
+    </div>
+    ${meals.map(([k,l,cls])=>`<div class="food-ms">
+      <div class="fml"><span class="${cls}">${l}</span>${canEdit?`<button class="btn btn-g btn-xs" style="color:var(--forest);font-size:.7rem" data-action="open-modal" data-modal="add-food" data-day-id="${day.id}" data-meal="${k}">+ যোগ</button>`:""}</div>
+      ${(day[k]||[]).map(item=>`<div class="fmi"><span>${esc(item.item_name)}</span>${canEdit?`<div style="display:flex;gap:3px;flex-shrink:0"><button class="btn btn-g btn-xs" style="padding:2px 5px;min-height:24px" data-action="open-modal" data-modal="edit-food" data-food-id="${item.id}" data-day-id="${day.id}" data-meal="${k}">✏️</button><button class="btn btn-g btn-xs" style="padding:2px 5px;min-height:24px;color:var(--rose)" data-action="del-food" data-food-id="${item.id}">🗑</button></div>`:""}</div>`).join("")}
+      ${(day[k]||[]).length===0?`<div style="font-size:.78rem;color:var(--muted);font-style:italic;padding:4px 0">কোনো আইটেম নেই</div>`:""}
+    </div>`).join("")}
+  </div>`).join("");
+  let modalHtml="";
+  if(m==="add-food-day"){
+    modalHtml=modal("নতুন দিন যোগ করুন",`
+      <div class="fg"><label>তারিখ</label><input class="fc" id="f-foodDate" type="date" value="${esc(f.foodDate||"")}"/></div>
+      <div class="fg"><label>দিনের নাম</label><input class="fc" id="f-foodDayLabel" value="${esc(f.foodDayLabel||"")}" placeholder="যেমন: ১ম দিন, ২য় দিন..."/></div>
+    `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-food-day">দিন যোগ করুন</button>`);
+  } else if(m==="add-food"||m==="edit-food"){
+    modalHtml=modal(m==="edit-food"?"সম্পাদনা":"আইটেম যোগ",`<div class="fg"><label>খাবারের নাম</label><input class="fc" id="f-foodName" value="${esc(f.foodName||"")}" placeholder="যেমন: ভাত, মুরগি কারি..."/></div>`,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-food">সংরক্ষণ</button>`);
+  }
+  return `<div class="pi">${pmb("food")}
+    <div class="sh-row"><div class="st">দৈনিক খাবারের তালিকা</div>${canEdit?`<button class="btn btn-p btn-sm" data-action="open-modal" data-modal="add-food-day">+ নতুন দিন</button>`:""}</div>
+    ${food.length===0?`<div class="empty"><div class="ei">🍽️</div>এখনো কোনো দিন যোগ করা হয়নি</div>`:""}
+    ${rows}${modalHtml}
+  </div>`;
+}
+
+function renderSleep() {
+  const {users, rooms, mods} = S.data;
+  const canEdit = S.me.role==="super_admin"||(mods.sleep||[]).includes(S.me.id);
+  const totalSlots = rooms.reduce((s,r)=>s+r.capacity,0);
+  const occ = rooms.reduce((s,r)=>s+r.slots.filter(sl=>sl.status==="occ").length,0);
+  const unassigned = users.filter(u=>!rooms.some(r=>r.slots.some(s=>s.occupantId===u.id)));
+  const {modal:m, form:f} = S;
+  const roomRows = rooms.map(room=>`<div class="sleep-c">
+    <div class="sleep-h"><h3>${esc(room.name)}</h3><div style="font-size:.7rem;color:var(--muted);margin-top:2px">${room.slots.filter(s=>s.status==="occ").length}/${room.capacity} দখলকৃত · ${room.beds} বিছানা</div></div>
+    <div class="sleep-slots">${room.slots.map(slot=>{
+      const ocu=slot.occupantId?users.find(u=>u.id===slot.occupantId):null;
+      return `<div class="sl ${slot.status}">
+        <span class="sl-name">${ocu?`🧑 ${esc(ocu.name)}`:`স্থান ${slot.id}`}</span>
+        <div style="display:flex;align-items:center;gap:5px">
+          <span class="sl-st">${slot.status==="occ"?"দখলকৃত":"খালি"}</span>
+          ${canEdit&&slot.status==="avail"?`<button class="btn btn-f btn-xs" data-action="open-modal" data-modal="assign-room" data-room-id="${room.id}" data-slot-id="${slot.id}">নির্ধারণ</button>`:""}
+          ${canEdit&&slot.status==="occ"?`<button class="btn btn-d btn-xs" data-action="unassign-slot" data-room-id="${room.id}" data-slot-id="${slot.id}">সরান</button>`:""}
+        </div>
+      </div>`;
+    }).join("")}</div>
+  </div>`).join("");
+  let modalHtml="";
+  if(m==="add-room"){modalHtml=modal("রুম যোগ",`<div class="fg"><label>রুমের নাম</label><input class="fc" id="f-roomName" value="${esc(f.roomName||"")}"/></div><div class="fr2"><div class="fg"><label>ধারণক্ষমতা</label><input class="fc" id="f-capacity" type="number" value="${esc(f.capacity||"")}"/></div><div class="fg"><label>বিছানা</label><input class="fc" id="f-beds" type="number" value="${esc(f.beds||"")}"/></div></div>`,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-room">রুম যোগ করুন</button>`);}
+  else if(m==="assign-room"){
+    const avail=users.filter(u=>!rooms.some(r=>r.slots.some(s=>s.occupantId===u.id)));
+    modalHtml=modal("স্থান নির্ধারণ",`<div class="fg"><label>সদস্য নির্বাচন</label><select class="fc" id="f-assignUid"><option value="">— বাছুন —</option>${avail.map(u=>`<option value="${u.id}">${esc(u.name)}</option>`).join("")}</select></div>`,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-f" data-action="save-assign">নির্ধারণ করুন</button>`);
+  }
+  return `<div class="pi">${pmb("sleep")}
+    <div class="sr3"><div class="chip cf"><div class="chip-val">${totalSlots}</div><div class="chip-lbl">মোট</div></div><div class="chip cr"><div class="chip-val">${occ}</div><div class="chip-lbl">দখলকৃত</div></div><div class="chip cs"><div class="chip-val">${totalSlots-occ}</div><div class="chip-lbl">খালি</div></div></div>
+    <div class="sh-row"><div class="st">ঘুমের ব্যবস্থা</div>${canEdit?`<button class="btn btn-p btn-sm" data-action="open-modal" data-modal="add-room">+ রুম</button>`:""}</div>
+    ${roomRows}
+    ${unassigned.length>0?`<div class="st" style="color:var(--rose)">⚠️ নির্ধারিত হয়নি</div><div style="display:flex;flex-wrap:wrap;gap:8px">${unassigned.map(u=>`<div style="background:#fff;border:1px solid var(--border);border-radius:8px;padding:7px 11px;display:flex;align-items:center;gap:8px;font-size:.82rem">${av(u,24)} ${esc(u.name)}</div>`).join("")}</div>`:""}
+    ${modalHtml}
+  </div>`;
+}
+
+function renderContact() {
+  const {users, mods} = S.data;
+  const anyMod = Object.values(mods).some(a=>a.includes(S.me.id));
+  const canSeeAll = S.me.role==="super_admin"||anyMod;
+  const admin = users.find(u=>u.id===1);
+  const modUids = [...new Set(Object.values(mods).flat())];
+  return `<div class="pi">${pmb("contact")}
+    ${!canSeeAll?`<div class="notice">🔒 মোবাইল নম্বর শুধুমাত্র মডারেটর ও অ্যাডমিন দেখতে পারবেন।</div>`:""}
+    <div class="st">👑 সুপার অ্যাডমিন</div>
+    ${admin?`<div class="cc" style="border-color:var(--saffron);background:var(--saffron-lt)">
+      <div class="cc-top">${av(admin,48)}<div><div class="cc-name">${esc(admin.name)}</div><a href="tel:${esc(admin.phone)}" style="color:var(--sky);font-weight:700;font-size:.84rem;display:block;margin-top:2px">${esc(admin.phone)}</a></div></div>
+      <div style="display:flex;flex-wrap:wrap;gap:5px">${Object.entries(MOD_LABELS).map(([,v])=>`<span class="tag tag-m">${v}</span>`).join("")}</div>
+    </div>`:""}
+    <div class="st">🛡️ মডারেটরগণ</div>
+    ${modUids.map(uid=>{const u=users.find(x=>x.id===uid);if(!u)return"";return`<div class="cc"><div class="cc-top">${av(u,44)}<div><div class="cc-name">${esc(u.name)}</div>${u.phone?`<a href="tel:${esc(u.phone)}" style="color:var(--sky);font-weight:700;font-size:.84rem;display:block;margin-top:2px">${esc(u.phone)}</a>`:`<span style="color:var(--muted);font-size:.82rem">ফোন নেই</span>`}</div></div><div style="display:flex;flex-wrap:wrap;gap:5px">${Object.entries(mods).filter(([,ids])=>ids.includes(u.id)).map(([k])=>`<span class="tag tag-m">${MOD_LABELS[k]}</span>`).join("")}</div></div>`;}).join("")}
+    <div class="st">সকল সদস্য</div>
+    ${users.map(u=>`<div class="mc">${av(u,40)}<div class="mc-info"><div class="mc-name">${esc(u.name)}</div>${phoneLink(S.me,u,mods,"contact")}</div><span class="tag ${u.type==="adult"?"tag-a":u.type==="teen"?"tag-t":"tag-c"}">${typeName(u.type)}</span></div>`).join("")}
+  </div>`;
+}
+
+function renderVolunteer() {
+  const {users, volunteers, mods} = S.data;
+  const already = volunteers.find(v=>v.userId===S.me.id);
+  const {modal:m} = S;
+  return `<div class="pi">${pmb("volunteer")}
+    <div style="background:linear-gradient(135deg,var(--forest-bg),#fff);border:1px solid #A7F3D0;border-radius:14px;padding:18px;margin-bottom:16px">
+      <h3 style="color:var(--forest);font-size:1rem;margin-bottom:6px">🌟 স্বেচ্ছাসেবী হিসেবে যোগ দিন</h3>
+      <p style="font-size:.82rem;color:var(--muted);line-height:1.6;margin-bottom:14px">যোগ দিলে আপনার নাম ও ফোন নম্বর সবাই দেখতে পাবেন।</p>
+      ${!already?`<button class="btn btn-f btn-w" data-action="open-modal" data-modal="join-volunteer">🙋 যোগ দিন</button>`:
+      `<div style="display:flex;flex-direction:column;gap:8px">
+        <div style="background:#fff;border:1.5px solid #A7F3D0;border-radius:10px;padding:11px 14px;font-size:.88rem;color:var(--forest);font-weight:800;text-align:center">✅ আপনি স্বেচ্ছাসেবী তালিকায় আছেন</div>
+        <button class="btn btn-d btn-sm btn-w" data-action="leave-volunteer">তালিকা থেকে সরুন</button>
+      </div>`}
+    </div>
+    <div class="st">বর্তমান স্বেচ্ছাসেবীগণ (${volunteers.length})</div>
+    ${volunteers.map(v=>{
+      const u=users.find(x=>x.id===v.userId);if(!u)return"";
+      const g=u.guardianId?users.find(x=>x.id===u.guardianId):null;
+      const callPhone=u.phone||(g?.phone)||null;
+      return `<div class="vol-card">${av(u,44)}<div style="flex:1"><div style="font-weight:800;font-size:.9rem">${esc(u.name)}</div><div style="color:var(--forest);font-weight:700;font-size:.72rem;margin-top:2px">🤝 স্বেচ্ছাসেবী</div>${u.phone?`<a href="tel:${esc(u.phone)}" style="font-size:.78rem;color:var(--sky);font-weight:700;display:block;margin-top:2px">📞 ${esc(u.phone)}</a>`:g?.phone?`<a href="tel:${esc(g.phone)}" style="font-size:.78rem;color:var(--sky);font-weight:700;display:block;margin-top:2px">📞 ${esc(g.name)}</a>`:""}</div>${callBtn(callPhone)}</div>`;
+    }).join("")}
+    ${volunteers.length===0?`<div class="empty"><div class="ei">🤲</div>এখনো কেউ নেই!</div>`:""}
+    ${m==="join-volunteer"?modal("স্বেচ্ছাসেবী যোগ দিন",`<div style="display:flex;align-items:center;gap:14px;margin-bottom:16px;background:var(--forest-bg);border-radius:12px;padding:14px">${av(S.me,50)}<div><div style="font-weight:800;font-size:1rem">${esc(S.me.name)}</div><div style="font-size:.8rem;color:var(--muted);margin-top:2px">আপনার নাম ও ফোন নম্বর সবাই দেখতে পাবেন।</div></div></div>`,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-f" data-action="save-volunteer">✅ যোগ দিচ্ছি!</button>`):""}
+  </div>`;
+}
+
+function renderUsers() {
+  const {users, mods} = S.data;
+  const isAdmin = S.me.role==="super_admin";
+  const {modal:m, form:f} = S;
+  const RELATIONS_OPTS = RELATIONS.map(r=>`<option value="${esc(r)}">${esc(r)}</option>`).join("");
+  let modalHtml="";
+  if(m==="add-family"){
+    modalHtml=modal("পরিবারের সদস্য যোগ",`
+      <div class="info">যার পরিবার: <strong>${esc(S.me.name)}</strong></div>
+      <div class="fg"><label>পুরো নাম</label><input class="fc" id="f-famName" value="${esc(f.famName||"")}"/></div>
+      <div class="fg"><label>সম্পর্ক</label><select class="fc" id="f-famRel"><option value="">— সম্পর্ক —</option>${RELATIONS_OPTS}</select></div>
+      <div class="fg"><label>বয়সের শ্রেণি</label>
+        <div class="age-opts">
+          ${[{v:"child",icon:"🧒",label:"শিশু",sub:"১২ বছরের নিচে",fee:"বিনামূল্যে",color:"var(--rose)"},{v:"teen",icon:"🧑",label:"কিশোর",sub:"১২–১৯",fee:"৳৩০০",color:"var(--saffron-dk)"},{v:"adult",icon:"🧔",label:"প্রাপ্তবয়স্ক",sub:"২০+",fee:"৳৫০০",color:"var(--forest)"}].map(o=>`
+          <div class="age-opt" style="border-color:${f.famType===o.v?"var(--saffron)":"var(--border)"};background:${f.famType===o.v?"var(--saffron-lt)":"#fff"}" data-action="set-fam-type" data-type="${o.v}">
+            <div class="age-opt-icon">${o.icon}</div><div class="age-opt-lbl">${o.label}</div><div class="age-opt-sub">${o.sub}</div><div class="age-opt-fee" style="color:${o.color}">${o.fee}</div>
+          </div>`).join("")}
+        </div>
+      </div>
+      <div class="fg"><label>মোবাইল (ঐচ্ছিক)</label><input class="fc" id="f-famPhone" value="${esc(f.famPhone||"")}" placeholder="না থাকলে খালি"/><div class="fcnote">না থাকলে আপনি যোগাযোগ হিসেবে থাকবেন।</div></div>
+    `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-pu" data-action="save-family">সদস্য যোগ করুন</button>`);
+  } else if(m==="add-member-admin"){
+    modalHtml=modal("সদস্য যোগ",`
+      <div class="fg"><label>পুরো নাম</label><input class="fc" id="f-mName" value="${esc(f.mName||"")}"/></div>
+      <div style="display:flex;align-items:center;gap:10px;margin-bottom:14px"><input type="checkbox" id="f-noPhone" ${f.noPhone?"checked":""} style="width:20px;height:20px"/><label for="f-noPhone" style="font-size:.88rem">নিজস্ব ফোন নেই</label></div>
+      ${f.noPhone?`<div class="fg"><label>অভিভাবক</label><select class="fc" id="f-guardianId"><option value="">— বাছুন —</option>${users.filter(u=>u.phone).map(u=>`<option value="${u.id}">${esc(u.name)}</option>`).join("")}</select></div>`:`<div class="fg"><label>মোবাইল নম্বর</label><input class="fc" id="f-mPhone" value="${esc(f.mPhone||"")}"/></div>`}
+      <div class="fr2">
+        <div class="fg"><label>ধরন</label><select class="fc" id="f-mType"><option value="adult">প্রাপ্তবয়স্ক</option><option value="teen">কিশোর</option><option value="child">শিশু</option></select></div>
+        <div class="fg"><label>ভূমিকা</label><select class="fc" id="f-mRole"><option value="general">সাধারণ সদস্য</option><option value="moderator">মডারেটর</option></select></div>
+      </div>
+      <div class="fg"><label>নোট</label><input class="fc" id="f-mNote" value="${esc(f.mNote||"")}"/></div>
+    `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-member">সদস্য যোগ করুন</button>`);
+  } else if(m==="edit-member"&&f._editUserId){
+    const eu=users.find(x=>x.id===f._editUserId);
+    if(eu) modalHtml=modal("সদস্য সম্পাদনা",`
+      <div class="fg"><label>পুরো নাম</label><input class="fc" id="f-mName" value="${esc(eu.name)}"/></div>
+      <div class="fg"><label>মোবাইল নম্বর</label><input class="fc" id="f-mPhone" value="${esc(eu.phone||"")}"/></div>
+      <div class="fr2">
+        <div class="fg"><label>ধরন</label><select class="fc" id="f-mType">${[["adult","প্রাপ্তবয়স্ক"],["teen","কিশোর"],["child","শিশু"]].map(([v,l])=>`<option value="${v}" ${eu.type===v?"selected":""}>${l}</option>`).join("")}</select></div>
+        <div class="fg"><label>ভূমিকা</label><select class="fc" id="f-mRole">${[["general","সাধারণ"],["moderator","মডারেটর"],["super_admin","সুপার অ্যাডমিন"]].map(([v,l])=>`<option value="${v}" ${eu.role===v?"selected":""}>${l}</option>`).join("")}</select></div>
+      </div>
+      <div class="fg"><label>নোট</label><input class="fc" id="f-mNote" value="${esc(eu.note)}"/></div>
+    `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-edit-member">সংরক্ষণ</button>`);
+  }
+  return `<div class="pi">
+    <div style="background:linear-gradient(135deg,#EDE9FE,#fff);border:1px solid #C4B5FD;border-radius:14px;padding:16px;margin-bottom:14px">
+      <h3 style="color:var(--purple);font-size:.95rem;margin-bottom:5px">👨‍👩‍👧‍👦 পরিবারের সদস্য যোগ করুন</h3>
+      <p style="font-size:.8rem;color:var(--muted);line-height:1.5;margin-bottom:12px">আপনার পরিবারের সদস্যদের যোগ করুন।</p>
+      <button class="btn btn-pu btn-w" data-action="open-modal" data-modal="add-family">👨‍👩‍👧 পরিবারের সদস্য যোগ করুন</button>
+    </div>
+    <div class="sh-row"><div class="st">সকল সদস্য</div>${isAdmin?`<button class="btn btn-p btn-sm" data-action="open-modal" data-modal="add-member-admin">+ সদস্য</button>`:""}</div>
+    ${users.map(u=>`<div class="mc">${av(u,42)}
+      <div class="mc-info">
+        <div style="display:flex;align-items:center;gap:6px;flex-wrap:wrap"><div class="mc-name">${esc(u.name)}</div>${u.role!=="general"?`<span class="rp ${u.role==="super_admin"?"rp-sa":"rp-m"}">${roleName(u.role)}</span>`:""}</div>
+        ${phoneLink(S.me,u,mods,"users")}
+        ${u.note?`<div style="font-size:.7rem;color:var(--saffron-dk);margin-top:2px">${esc(u.note)}</div>`:""}
+      </div>
+      <div style="display:flex;flex-direction:column;align-items:flex-end;gap:5px;flex-shrink:0">
+        <span class="tag ${u.type==="adult"?"tag-a":u.type==="teen"?"tag-t":"tag-c"}">${typeName(u.type)}</span>
+        ${isAdmin&&u.id!==S.me.id?`<div style="display:flex;gap:3px"><button class="btn btn-g btn-xs" data-action="open-modal" data-modal="edit-member" data-uid="${u.id}">✏️</button><button class="btn btn-g btn-xs" style="color:var(--rose)" data-action="del-user" data-uid="${u.id}">🗑</button></div>`:""}
+      </div>
+    </div>`).join("")}
+    ${modalHtml}
+  </div>`;
+}
+
+function renderPermissions() {
+  if(S.me.role!=="super_admin") return `<div class="pi"><div class="locked"><div style="font-size:3rem">🔒</div><p>শুধুমাত্র সুপার অ্যাডমিন এই পাতা দেখতে পারবেন।</p></div></div>`;
+  const {users, mods} = S.data;
+  const getUserMods = uid => Object.entries(mods).filter(([,a])=>a.includes(uid)).map(([k])=>k);
+  const {modal:m, form:f} = S;
+  let modalHtml="";
+  if(m==="add-perm"){modalHtml=modal("অনুমতি নির্ধারণ",`
+    <div class="fg"><label>সদস্য</label><select class="fc" id="f-permUid"><option value="">— সদস্য নির্বাচন —</option>${users.filter(u=>u.id!==1).map(u=>`<option value="${u.id}" ${String(u.id)===String(f.permUid)?"selected":""}>${esc(u.name)}${getUserMods(u.id).length>0?" ("+getUserMods(u.id).map(k=>MOD_LABELS[k]).join(", ")+")":""}</option>`).join("")}</select></div>
+    <div class="fg"><label>মডিউল</label><select class="fc" id="f-permMod"><option value="">— মডিউল নির্বাচন —</option>${Object.entries(MOD_LABELS).map(([k,v])=>`<option value="${k}" ${k===f.permMod?"selected":""}>${v}</option>`).join("")}</select></div>
+    <div class="info">একজন সদস্যকে একাধিক মডিউলের দায়িত্ব দেওয়া যাবে।</div>
+  `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-perm">যোগ করুন</button>`);}
+  else if(m==="change-pw"){modalHtml=modal("পাসওয়ার্ড পরিবর্তন",`
+    <div class="fg"><label>সদস্য</label><select class="fc" id="f-pwUid">${selOpts(users.filter(u=>u.role==="super_admin"||u.role==="moderator").map(u=>[u.id,u.name]),f.pwUid)}</select></div>
+    <div class="fg"><label>নতুন পাসওয়ার্ড</label><input class="fc" id="f-newPw" value="${esc(f.newPw||"")}"/></div>
+  `,`<button class="btn btn-s" data-action="close-modal">বাতিল</button><button class="btn btn-p" data-action="save-pw">সংরক্ষণ</button>`);}
+  return `<div class="pi">
+    <div class="sh-row"><div class="st">মডারেটর অনুমতি</div><button class="btn btn-p btn-sm" data-action="open-modal" data-modal="add-perm">+ অনুমতি</button></div>
+    <div class="info">প্রতিটি মডারেটর এক বা একাধিক মডিউলের দায়িত্বে থাকতে পারেন।</div>
+    <div class="st">👑 সুপার অ্যাডমিন</div>
+    <div class="perm-c" style="border-color:var(--saffron)"><div style="display:flex;align-items:center;gap:12px">${av(users[0],40)}<div><div style="font-weight:800">${esc(users[0]?.name)}</div><div style="font-size:.74rem;color:var(--muted)">${esc(users[0]?.phone)}</div></div></div><div class="pmods">${Object.entries(MOD_LABELS).map(([,v])=>`<span class="pmod" style="background:var(--saffron-lt);border-color:var(--saffron);color:var(--saffron-dk)">👑 ${v}</span>`).join("")}</div></div>
+    <div class="st">🛡️ মডারেটরগণ</div>
+    ${users.filter(u=>u.id!==1&&getUserMods(u.id).length>0).map(u=>`<div class="perm-c"><div style="display:flex;align-items:center;gap:12px;margin-bottom:8px">${av(u,38)}<div><div style="font-weight:800;font-size:.9rem">${esc(u.name)}</div><div style="font-size:.72rem;color:var(--muted)">${esc(u.phone||"ফোন নেই")}</div></div></div><div class="pmods">${getUserMods(u.id).map(mod=>`<span class="pmod">${MOD_LABELS[mod]}<span style="cursor:pointer;margin-left:4px;opacity:.6" data-action="remove-perm" data-mod="${mod}" data-uid="${u.id}">✕</span></span>`).join("")}</div></div>`).join("")}
+    <div class="st">👤 সাধারণ সদস্যগণ</div>
+    ${users.filter(u=>u.id!==1&&getUserMods(u.id).length===0).map(u=>`<div class="perm-c" style="display:flex;align-items:center;gap:12px">${av(u,36)}<div style="flex:1"><div style="font-weight:700;font-size:.88rem">${esc(u.name)}</div><div style="font-size:.72rem;color:var(--muted);font-style:italic">কোনো দায়িত্ব নেই</div></div><button class="btn btn-s btn-sm" data-action="open-modal" data-modal="add-perm" data-uid="${u.id}">+ দায়িত্ব</button></div>`).join("")}
+    <div class="sh-row" style="margin-top:20px"><div class="st">🔐 পাসওয়ার্ড ব্যবস্থাপনা</div><button class="btn btn-dk btn-sm" data-action="open-modal" data-modal="change-pw">পরিবর্তন</button></div>
+    <div class="notice">শুধুমাত্র সুপার অ্যাডমিন সকলের পাসওয়ার্ড দেখতে ও পরিবর্তন করতে পারবেন।</div>
+    <div class="card"><div style="padding:0 14px">${users.filter(u=>u.role==="super_admin"||u.role==="moderator").map(u=>`<div class="pwrow"><div style="display:flex;align-items:center;gap:10px">${av(u,32)}<div><div style="font-weight:700;font-size:.88rem">${esc(u.name)}</div><div style="font-size:.72rem;color:var(--muted)">${roleName(u.role)}</div></div></div><div style="text-align:right"><div style="font-family:monospace;font-size:.82rem;color:${u.password?"var(--forest)":"var(--muted)"};font-style:${u.password?"normal":"italic"}">${esc(u.password||"সেট করা নেই")}</div><button class="btn btn-g btn-xs" data-action="open-modal" data-modal="change-pw" data-uid="${u.id}">পরিবর্তন</button></div></div>`).join("")}</div></div>
+    ${modalHtml}
+  </div>`;
+}
+
+function renderMoreSheet() {
+  const {me} = S;
+  return `<div class="overlay" data-action="close-sheet"></div>
+  <div class="sheet">
+    <div class="mhandle"></div>
+    <div style="font-size:.78rem;font-weight:800;color:var(--muted);text-transform:uppercase;letter-spacing:.08em;margin-bottom:10px">আরো পাতা</div>
+    <div style="display:grid;grid-template-columns:1fr 1fr;gap:10px">
+      ${MORE.filter(p=>p.id!=="permissions"||me.role==="super_admin").map(n=>`<div style="display:flex;align-items:center;gap:10px;padding:14px;border-radius:12px;background:${S.page===n.id?"var(--saffron-lt)":"var(--cream)"};border:1.5px solid ${S.page===n.id?"var(--saffron)":"var(--border)"};cursor:pointer;font-size:.88rem;font-weight:700;color:${S.page===n.id?"var(--saffron-dk)":"var(--text)"}" data-action="nav" data-page="${n.id}"><span style="font-size:1.4rem">${n.icon}</span><span>${n.label}</span></div>`).join("")}
+    </div>
+    <div style="margin-top:12px;border-top:1px solid var(--border);padding-top:12px">
+      <div style="display:flex;align-items:center;gap:10px;padding:14px;border-radius:12px;background:#EDE9FE;border:1.5px solid #C4B5FD;cursor:pointer;font-size:.88rem;font-weight:700;color:var(--purple)" data-action="nav-users-family"><span style="font-size:1.4rem">👨‍👩‍👧</span><span>পরিবারের সদস্য যোগ</span></div>
+    </div>
+  </div>`;
+}
+function renderUserSheet() {
+  return `<div class="overlay" data-action="close-sheet"></div>
+  <div class="sheet">
+    <div class="mhandle"></div>
+    <div style="font-weight:800;font-size:.95rem;margin-bottom:2px">${esc(S.me.name)}</div>
+    <div style="font-size:.78rem;color:var(--muted);margin-bottom:16px">${esc(S.me.phone||"ফোন নেই")} · ${roleName(S.me.role)}</div>
+    <button class="btn btn-d btn-w" data-action="logout">🚪 লগআউট করুন</button>
+  </div>`;
+}
+
+// ── MOUNT ────────────────────────────────────────────────────────────────────
+function mount() {
+  const app = document.getElementById("app");
+  if (!S.me) { app.innerHTML = renderAuth(); return; }
+  if (!S.data) { app.innerHTML = `<div class="loading-screen"><div class="spin"></div><span>লোড হচ্ছে...</span></div>`; return; }
+  const pageMap = {dashboard:renderDashboard,fund:renderFund,spending:renderSpending,events:renderEvents,food:renderFood,sleep:renderSleep,contact:renderContact,volunteer:renderVolunteer,users:renderUsers,permissions:renderPermissions};
+  const moreIds = MORE.map(p=>p.id);
+  const activeTab = moreIds.includes(S.page) ? "more" : S.page;
+  const renderer = pageMap[S.page];
+  app.innerHTML = `
+    ${S.loading?`<div class="loadbar"></div>`:""}
+    <div class="app">
+      ${renderTopbar()}
+      <div class="page">${renderer ? renderer() : ""}</div>
+      ${S.page!=="users"?`<button class="fab" data-action="nav-users-family">👨‍👩‍👧</button>`:""}
+      ${renderNav()}
+      ${S.sheet==="more" ? renderMoreSheet() : ""}
+      ${S.sheet==="user" ? renderUserSheet() : ""}
+    </div>
+  `;
+}
+
+// ── EVENTS ───────────────────────────────────────────────────────────────────
+document.addEventListener("click", async function(e) {
+  const el = e.target.closest("[data-action]");
+  if (!el) return;
+  const a = el.dataset.action;
+  const d = el.dataset;
+
+  if (a === "auth-tab") { S.authTab = d.tab; S.authErr = ""; S.authStep = "phone"; mount(); return; }
+  if (a === "auth-back") { S.authStep = "phone"; S.authErr = ""; mount(); return; }
+
+  if (a === "auth-login") {
+    const phone = document.getElementById("auth-phone")?.value?.trim();
+    const {data,error} = await sb.from("members").select("*").eq("phone",phone).single();
+    if (!data) { S.authErr = "এই নম্বরে অ্যাকাউন্ট নেই।"; mount(); return; }
+    const u = {id:data.id,name:data.name,phone:data.phone,type:data.type,role:data.role,noPhone:data.no_phone,guardianId:data.guardian_id,note:data.note||"",password:data.password||""};
+    if ((u.role==="super_admin"||u.role==="moderator") && u.password) { S.authPending=u; S.authStep="password"; S.authErr=""; mount(); return; }
+    S.me = u; S.authErr = ""; localStorage.setItem("poribar_me", JSON.stringify(u)); await reload(); setupRealtime(); return;
+  }
+  if (a === "auth-pw") {
+    const pw = document.getElementById("auth-pw")?.value;
+    if (S.authPending.password === pw) { S.me = S.authPending; S.authErr = ""; localStorage.setItem("poribar_me", JSON.stringify(S.authPending)); await reload(); setupRealtime(); }
+    else { S.authErr = "পাসওয়ার্ড সঠিক নয়।"; mount(); }
+    return;
+  }
+  if (a === "auth-register") {
+    const name = document.getElementById("auth-name")?.value?.trim();
+    const phone = document.getElementById("auth-regphone")?.value?.trim();
+    if (!name || !phone) { S.authErr = "নাম ও ফোন দিন।"; mount(); return; }
+    const {data:ex} = await sb.from("members").select("id").eq("phone",phone).single();
+    if (ex) { S.authErr = "এই নম্বরে ইতিমধ্যে অ্যাকাউন্ট আছে।"; mount(); return; }
+    const {data,error} = await sb.from("members").insert({name,phone,type:"adult",role:"general",no_phone:false,note:"",password:""}).select().single();
+    if (error) { S.authErr = "ত্রুটি হয়েছে।"; mount(); return; }
+    S.me = {id:data.id,name:data.name,phone:data.phone,type:data.type,role:data.role,noPhone:false,guardianId:null,note:"",password:""};
+    localStorage.setItem("poribar_me", JSON.stringify(S.me));
+    await reload(); setupRealtime(); return;
+  }
+
+  if (a === "logout") { S.me=null; S.data=null; S.sheet=null; localStorage.removeItem("poribar_me"); mount(); return; }
+  if (a === "nav") {
+    const p = d.page;
+    if (p === "more") { S.sheet = S.sheet==="more" ? null : "more"; mount(); return; }
+    S.page = p; S.sheet = null; S.modal = null; S.form = {}; mount(); return;
+  }
+  if (a === "nav-users-family") { S.page="users"; S.sheet=null; S.modal="add-family"; S.form={}; mount(); return; }
+  if (a === "toggle-user-sheet") { S.sheet = S.sheet==="user" ? null : "user"; mount(); return; }
+  if (a === "close-sheet") { S.sheet = null; mount(); return; }
+  if (a === "close-modal") { S.modal = null; S.form = {}; S.confirm = null; mount(); return; }
+  if (a === "close-modal-bg") { if(e.target===el){S.modal=null;S.form={};S.confirm=null;mount();} return; }
+  if (a === "dismiss-notice") { S.noticeDismissed = true; mount(); return; }
+  if (a === "fund-tab") { S.fundTab = d.tab; mount(); return; }
+
+  // PMB: show inline add-moderator row (must be BEFORE generic open-modal)
+  if (a === "show-pmb-add") {
+    const el2 = document.getElementById(`pmb-add-${d.modKey}`);
+    if (el2) { el2.style.display = "flex"; el2.previousElementSibling?.querySelector("button[data-action=show-pmb-add]")?.remove(); }
+    return;
+  }
+  if (a === "close-pmb-add") { const el2=document.getElementById(`pmb-add-${d.modKey}`); if(el2)el2.style.display="none"; return; }
+
+  if (a === "open-modal") {
+    const m = d.modal;
+    S.modal = m; S.form = {};
+    if (m==="payment-form") {
+      if (d.payId) { const pay=S.data.payments.find(p=>p.id===Number(d.payId)); S.form={_editPayId:Number(d.payId),userId:pay.userId,entryFee:pay.entryFee,donation:pay.donation,channel:pay.channel,note:pay.note}; }
+      else if (d.userId) { S.form={userId:Number(d.userId),entryFee:d.entryFee||"",donation:"0",channel:"নগদ (হাতে)",note:""}; }
+      else { S.form={userId:"",entryFee:"",donation:"0",channel:"নগদ (হাতে)",note:""}; }
+    }
+    else if (m==="add-item"||m==="edit-item") { S.form={_catId:Number(d.catId),_itemId:d.itemId?Number(d.itemId):null}; if(m==="edit-item"){const cat=S.data.spending.find(c=>c.id===Number(d.catId));const item=cat?.items.find(i=>i.id===Number(d.itemId));if(item){S.form.itemName=item.name;S.form.itemAmt=item.amount;}} }
+    else if (m==="handover") { S.form={_catId:Number(d.catId),handoverAmt:d.rem}; }
+    else if (m==="allocate-fund") { S.form={_catId:d.catId||"",allocAmt:"",allocNote:""}; }
+    else if (m==="alloc-mod") { S.form={_modId:d.modId||"",allocAmt:""}; }
+    else if (m==="add-cat") { S.form={_modId:d.modId||"",category:""}; }
+    else if (m==="handover-mod") { S.form={_modId:d.modId||"",_remain:d.remain||0}; }
+    else if (m==="edit-event") { const ev=S.data.events.flatMap(dx=>dx.items).find(i=>i.id===Number(d.eventId)); S.form={_eventId:Number(d.eventId),_dayId:Number(d.dayId),evTime:ev?.time,evTitle:ev?.title,evDesc:ev?.desc}; }
+    else if (m==="add-event") { S.form={}; }
+    else if (m==="edit-food") { S.form={_foodId:Number(d.foodId),_dayId:Number(d.dayId),_meal:d.meal,foodName:""}; const day=S.data.food.find(fd=>fd.id===Number(d.dayId)); const item=(day?.[d.meal]||[]).find(i=>i.id===Number(d.foodId)); if(item)S.form.foodName=item.item_name; }
+    else if (m==="add-food") { S.form={_dayId:Number(d.dayId),_meal:d.meal,foodName:""}; }
+    else if (m==="add-food-day") { S.form={foodDate:"",foodDayLabel:""}; }
+    else if (m==="assign-room") { S.form={_roomId:Number(d.roomId),_slotId:Number(d.slotId)}; }
+    else if (m==="edit-member") { S.form={_editUserId:Number(d.uid)}; }
+    else if (m==="add-perm") { S.form={permUid:d.uid||"",permMod:""}; }
+    else if (m==="change-pw") { const u=d.uid?S.data.users.find(x=>x.id===Number(d.uid)):null; S.form={pwUid:d.uid||"",newPw:u?.password||""}; }
+    mount(); return;
+  }
+  if (a === "save-mod") {
+    const key = d.modKey;
+    const sel = document.getElementById(`pmb-sel-${key}`);
+    const uid = Number(sel?.value); if (!uid) return;
+    await sb.from("module_moderators").upsert({module:key,member_id:uid});
+    await sb.from("members").update({role:"moderator"}).eq("id",uid);
+    await reloadTables("module_moderators","members"); return;
+  }
+  if (a === "remove-mod") {
+    await sb.from("module_moderators").delete().eq("module",d.modKey).eq("member_id",Number(d.uid));
+    await reloadTables("module_moderators"); return;
+  }
+
+  // Dashboard
+  if (a === "delete-notice") { await sb.from("app_settings").upsert({key:"notice",value:""}); S.noticeDismissed=false; await reloadTables("app_settings"); return; }
+  if (a === "save-notice") { const txt=document.getElementById("notice-txt")?.value||""; await sb.from("app_settings").upsert({key:"notice",value:txt}); S.modal=null; await reloadTables("app_settings"); return; }
+
+  // Fund
+  if (a === "payment-preview") {
+    const userId = Number(document.getElementById("f-userId")?.value || S.form.userId);
+    const entryFee = Number(document.getElementById("f-entryFee")?.value);
+    const donation = Number(document.getElementById("f-donation")?.value)||0;
+    const channel = document.getElementById("f-channel")?.value || "নগদ (হাতে)";
+    const note = document.getElementById("f-note")?.value || "";
+    if (!userId || !entryFee) return;
+    const u = S.data.users.find(x=>x.id===userId);
+    S.confirm = {userId,userName:u?.name,entryFee,donation,channel,note,_editPayId:S.form._editPayId};
+    S.modal = "payment-confirm"; mount(); return;
+  }
+  if (a === "payment-back") { S.modal="payment-form"; mount(); return; }
+  if (a === "payment-save") {
+    const c = S.confirm;
+    if (c._editPayId) await sb.from("payments").update({entry_fee:c.entryFee,donation:c.donation,channel:c.channel,note:c.note}).eq("id",c._editPayId);
+    else await sb.from("payments").insert({member_id:c.userId,entry_fee:c.entryFee,donation:c.donation,channel:c.channel,note:c.note});
+    S.modal=null; S.confirm=null; S.form={}; await reloadTables("payments"); return;
+  }
+
+  // Spending
+  if (a === "save-alloc-mod") {
+    const modId = Number(document.getElementById("f-allocModId")?.value);
+    const amt   = Number(document.getElementById("f-allocAmt")?.value)||0;
+    if (!modId || amt <= 0) { alert("মডারেটর ও পরিমাণ দিন।"); return; }
+    const cur = S.data.modBudgets[modId]||0;
+    await sb.from("app_settings").upsert({key:`mod_budget_${modId}`, value:String(cur+amt)});
+    S.modal=null; S.form={}; await reloadTables("app_settings"); return;
+  }
+  if (a === "save-handover-mod") {
+    const modId = Number(S.form._modId);
+    const amt   = Number(document.getElementById("f-handoverModAmt")?.value)||0;
+    if (!modId || amt <= 0) { alert("পরিমাণ দিন।"); return; }
+    const cur = S.data.modBudgets[modId]||0;
+    const newBudget = Math.max(0, cur - amt);
+    await sb.from("app_settings").upsert({key:`mod_budget_${modId}`, value:String(newBudget)});
+    S.modal=null; S.form={}; await reloadTables("app_settings"); return;
+  }
+  if (a === "save-cat") {
+    const catName = document.getElementById("f-category")?.value?.trim();
+    if (!catName) return;
+    const modId = Number(document.getElementById("f-catModId")?.value)||S.me.id;
+    await sb.from("spending_categories").insert({category:catName, moderator_id:modId, received:0, handovers_back:0});
+    S.modal=null; await reloadTables("spending_categories"); return;
+  }
+  if (a === "save-spending-item") {
+    const name=document.getElementById("f-itemName")?.value;
+    const amount=Number(document.getElementById("f-itemAmt")?.value)||0;
+    if(S.form._itemId) await sb.from("spending_items").update({name,amount}).eq("id",S.form._itemId);
+    else await sb.from("spending_items").insert({category_id:S.form._catId,name,amount});
+    S.modal=null; await reloadTables("spending_items"); return;
+  }
+  if (a === "del-spending-item") { await sb.from("spending_items").delete().eq("id",Number(d.itemId)); await reloadTables("spending_items"); return; }
+  if (a === "save-handover") {
+    const amt=Number(document.getElementById("f-handoverAmt")?.value)||0;
+    const cat=S.data.spending.find(c=>c.id===S.form._catId);
+    await sb.from("spending_categories").update({handovers_back:cat.handoversBack+amt}).eq("id",S.form._catId);
+    S.modal=null; await reloadTables("spending_categories"); return;
+  }
+
+  // Events
+  if (a === "save-event") {
+    const time=document.getElementById("f-evTime")?.value;
+    const title=document.getElementById("f-evTitle")?.value;
+    const desc=document.getElementById("f-evDesc")?.value||"";
+    if(!title||!time) return;
+    if(S.form._eventId){
+      await sb.from("event_items").update({time_label:time,title,description:desc}).eq("id",S.form._eventId);
+    } else {
+      const date=document.getElementById("f-evDate")?.value;
+      const dayLabel=document.getElementById("f-evDayLabel")?.value||"নতুন দিন";
+      if(!date) return;
+      let dayId; const ex=S.data.events.find(ev=>ev.date===date);
+      if(ex){dayId=ex.id;}else{const {data:nd}=await sb.from("event_days").insert({date,day_label:dayLabel,sort_order:S.data.events.length+1}).select().single();dayId=nd.id;}
+      await sb.from("event_items").insert({event_day_id:dayId,time_label:time,title,description:desc,sort_order:99});
+    }
+    S.modal=null; await reloadTables("event_days","event_items"); return;
+  }
+  if (a === "del-event") { await sb.from("event_items").delete().eq("id",Number(d.eventId)); await reloadTables("event_items"); return; }
+  if (a === "del-event-day") {
+    const dayId = Number(d.dayId);
+    await sb.from("event_items").delete().eq("event_day_id", dayId);
+    await sb.from("event_days").delete().eq("id", dayId);
+    await reloadTables("event_days","event_items"); return;
+  }
+
+  // Food
+  if (a === "save-food-day") {
+    const date=document.getElementById("f-foodDate")?.value;
+    const dayLabel=document.getElementById("f-foodDayLabel")?.value||"নতুন দিন";
+    if(!date){return;}
+    await sb.from("food_days").insert({date,day_label:dayLabel,sort_order:S.data.food.length+1});
+    S.modal=null; await reloadTables("food_days"); return;
+  }
+  if (a === "del-food-day") {
+    const dayId=Number(d.dayId);
+    await sb.from("food_items").delete().eq("food_day_id",dayId);
+    await sb.from("food_days").delete().eq("id",dayId);
+    await reloadTables("food_days","food_items"); return;
+  }
+  if (a === "save-food") {
+    const name=document.getElementById("f-foodName")?.value;
+    if(S.form._foodId) await sb.from("food_items").update({item_name:name}).eq("id",S.form._foodId);
+    else await sb.from("food_items").insert({food_day_id:S.form._dayId,meal:S.form._meal,item_name:name,sort_order:99});
+    S.modal=null; await reloadTables("food_items"); return;
+  }
+  if (a === "del-food") { await sb.from("food_items").delete().eq("id",Number(d.foodId)); await reloadTables("food_items"); return; }
+
+  // Sleep
+  if (a === "unassign-slot") { await sb.from("room_slots").update({occupant_id:null}).eq("room_id",Number(d.roomId)).eq("slot_number",Number(d.slotId)); await reloadTables("room_slots"); return; }
+  if (a === "save-room") {
+    const name=document.getElementById("f-roomName")?.value;
+    const cap=Number(document.getElementById("f-capacity")?.value)||2;
+    const beds=Number(document.getElementById("f-beds")?.value)||1;
+    const {data}=await sb.from("rooms").insert({name,capacity:cap,beds}).select().single();
+    await sb.from("room_slots").insert(Array.from({length:cap},(_,i)=>({room_id:data.id,slot_number:i+1,occupant_id:null})));
+    S.modal=null; await reloadTables("rooms","room_slots"); return;
+  }
+  if (a === "save-assign") {
+    const uid=Number(document.getElementById("f-assignUid")?.value); if(!uid)return;
+    await sb.from("room_slots").update({occupant_id:uid}).eq("room_id",S.form._roomId).eq("slot_number",S.form._slotId);
+    S.modal=null; await reloadTables("room_slots"); return;
+  }
+
+  // Volunteer
+  if (a === "save-volunteer") { await sb.from("volunteers").insert({member_id:S.me.id}); S.modal=null; await reloadTables("volunteers"); return; }
+  if (a === "leave-volunteer") { await sb.from("volunteers").delete().eq("member_id",S.me.id); await reloadTables("volunteers"); return; }
+
+  // Users
+  if (a === "set-fam-type") { S.form.famType=d.type; mount(); return; }
+  if (a === "save-family") {
+    const name=document.getElementById("f-famName")?.value?.trim();
+    const rel=document.getElementById("f-famRel")?.value;
+    const type=S.form.famType;
+    const phone=document.getElementById("f-famPhone")?.value?.trim()||null;
+    if(!name||!rel||!type)return;
+    const note=`${rel} – ${S.me.name}-এর পরিবার`;
+    await sb.from("members").insert({name,phone:phone||null,type,role:"general",no_phone:!phone,guardian_id:phone?null:S.me.id,note,password:""});
+    S.modal=null; S.form={}; await reloadTables("members"); return;
+  }
+  if (a === "save-member") {
+    const name=document.getElementById("f-mName")?.value?.trim();
+    const noPhone=document.getElementById("f-noPhone")?.checked;
+    const phone=noPhone?null:document.getElementById("f-mPhone")?.value?.trim()||null;
+    const guardianId=noPhone?Number(document.getElementById("f-guardianId")?.value)||null:null;
+    const type=document.getElementById("f-mType")?.value||"adult";
+    const role=document.getElementById("f-mRole")?.value||"general";
+    const note=document.getElementById("f-mNote")?.value||"";
+    await sb.from("members").insert({name,phone,type,role,no_phone:noPhone,guardian_id:guardianId,note,password:""});
+    S.modal=null; await reloadTables("members"); return;
+  }
+  if (a === "save-edit-member") {
+    const uid=S.form._editUserId;
+    const name=document.getElementById("f-mName")?.value?.trim();
+    const phone=document.getElementById("f-mPhone")?.value?.trim()||null;
+    const type=document.getElementById("f-mType")?.value;
+    const role=document.getElementById("f-mRole")?.value;
+    const note=document.getElementById("f-mNote")?.value||"";
+    await sb.from("members").update({name,phone,type,role,note}).eq("id",uid);
+    S.modal=null; await reloadTables("members"); return;
+  }
+  if (a === "del-user") { await sb.from("members").delete().eq("id",Number(d.uid)); await reloadTables("members"); return; }
+
+  // Permissions
+  if (a === "save-perm") {
+    const uid=Number(document.getElementById("f-permUid")?.value);
+    const mod=document.getElementById("f-permMod")?.value;
+    if(!uid||!mod)return;
+    await sb.from("module_moderators").upsert({module:mod,member_id:uid});
+    await sb.from("members").update({role:"moderator"}).eq("id",uid);
+    S.modal=null; await reloadTables("module_moderators","members"); return;
+  }
+  if (a === "remove-perm") { await sb.from("module_moderators").delete().eq("module",d.mod).eq("member_id",Number(d.uid)); await reloadTables("module_moderators"); return; }
+  if (a === "save-pw") {
+    const uid=Number(document.getElementById("f-pwUid")?.value);
+    const pw=document.getElementById("f-newPw")?.value||"";
+    if(!uid)return;
+    await sb.from("members").update({password:pw}).eq("id",uid);
+    S.modal=null; await reloadTables("members"); return;
+  }
+});
+
+// ── PWA MANIFEST ─────────────────────────────────────────────────────────────
+(function(){
+  // Use external manifest.json if hosted; fall back to inline blob for file:// protocol
+  if (location.protocol !== "file:") {
+    let link = document.querySelector("link[rel=manifest]");
+    if (!link) { link = document.createElement("link"); link.rel = "manifest"; document.head.appendChild(link); }
+    link.href = "./manifest.json";
+  } else {
+    const manifest={name:"কাঞ্চনআলী মাতুব্বর পরিবার মিলন উৎসব ২০২৬",short_name:"পরিবার মিলন",description:"ঈদুল ফিতর ২০২৬ · মার্চ ১৯–২৫ · বরিশাল",start_url:location.href,display:"standalone",background_color:"#FDF8F2",theme_color:"#1B2340",lang:"bn",icons:[{src:"data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 512 512'%3E%3Crect width='512' height='512' rx='96' fill='%231B2340'/%3E%3Ccircle cx='256' cy='210' r='90' fill='none' stroke='%23E8873A' stroke-width='28'/%3E%3Cpath d='M185 210 Q210 160 256 175 Q302 160 327 210' fill='%23E8873A'/%3E%3Ccircle cx='256' cy='192' r='22' fill='%23E9A320'/%3E%3Crect x='116' y='330' width='280' height='42' rx='21' fill='%23E8873A'/%3E%3Crect x='148' y='388' width='216' height='38' rx='19' fill='%232D6A4F'/%3E%3C/svg%3E",sizes:"512x512",type:"image/svg+xml",purpose:"any"}]};
+    const blob=new Blob([JSON.stringify(manifest)],{type:"application/json"});
+    const url=URL.createObjectURL(blob);
+    let link=document.querySelector("link[rel=manifest]");
+    if(!link){link=document.createElement("link");link.rel="manifest";document.head.appendChild(link);}
+    link.href=url;
+  }
+})();
+
+// ── SERVICE WORKER (runs only on https/localhost) ─────────────────────────────
+if ("serviceWorker" in navigator && (location.protocol === "https:" || location.hostname === "localhost")) {
+  const swCode = `
+    const CACHE = "poribar-v1";
+    const PRECACHE = ["./", "./manifest.json"];
+    self.addEventListener("install", e => { e.waitUntil(caches.open(CACHE).then(c => c.addAll(PRECACHE))); self.skipWaiting(); });
+    self.addEventListener("activate", e => { e.waitUntil(caches.keys().then(keys => Promise.all(keys.filter(k=>k!==CACHE).map(k=>caches.delete(k))))); self.clients.claim(); });
+    self.addEventListener("fetch", e => {
+      if (e.request.url.includes("supabase.co")) return;
+      const hosts = ["fonts.googleapis.com","fonts.gstatic.com","cdn.jsdelivr.net"];
+      if (hosts.some(h => e.request.url.includes(h))) {
+        e.respondWith(caches.open(CACHE).then(async c => { const cached = await c.match(e.request); if (cached) return cached; const fresh = await fetch(e.request); c.put(e.request, fresh.clone()); return fresh; }));
+        return;
+      }
+      e.respondWith(fetch(e.request).catch(() => caches.match(e.request)));
+    });
+  `;
+  const swBlob = new Blob([swCode], {type:"application/javascript"});
+  navigator.serviceWorker.register(URL.createObjectURL(swBlob)).catch(()=>{});
+}
+
+// ── INIT ──────────────────────────────────────────────────────────────────────
+try { const saved = localStorage.getItem("poribar_me"); if (saved) { S.me = JSON.parse(saved); } } catch(e) {}
+if (S.me) { reload().then(setupRealtime); } else { mount(); }
+</script>
+</body>
+</html>
